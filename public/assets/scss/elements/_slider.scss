@@ -701,6 +701,9 @@ Slider Default Button And Dot STyle
 
 .slider-activation {
     position: relative;
+    .bg_image--26 {
+        background-image: url(/assets/images/bg/bg-image-hero1.jpg) !important;
+    }
     .slick-dots {
         bottom: 60px;
         @media #{$sm-layout} {
