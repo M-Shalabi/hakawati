@@ -18,7 +18,7 @@ const SlideList = [
     category: "",
     title: "",
     description:
-      "There are many dkjfkfs variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
+      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
     // buttonText: 'Contact Us',
     buttonLink: "/contact",
   },
