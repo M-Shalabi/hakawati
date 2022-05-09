@@ -18,7 +18,7 @@ const SlideList = [
     category: "",
     title: "",
     description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
+    "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
     // buttonText: 'Contact Us',
     buttonLink: "/contact",
   },
@@ -87,7 +87,7 @@ class CreativeLanding extends Component {
 
     return (
       <Fragment>
-        <Helmet pageTitle="Creative Landing" />
+        <Helmet pageTitle="Hakawati Studio" />
         {/* Start Header Area  */}
         <header className="header-area formobile-menu header--fixed default-color">
           <div className="header-wrapper" id="header-wrapper">
@@ -269,7 +269,7 @@ class CreativeLanding extends Component {
 
         {/* Start Portfolio Area */}
         <div
-          className="portfolio-area pt--120 pb--140 bg_color--1"
+          className="portfolio-area pt--120 bg_color--1"
           id="portfolio"
         >
           <div className="rn-slick-dot">
