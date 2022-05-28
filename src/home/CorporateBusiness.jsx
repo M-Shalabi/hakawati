@@ -228,7 +228,7 @@ class CorporateBusiness extends Component {
             <div className='row row--35 align-items-center'>
               <div className='col-lg-6'>
                 <div className='thumbnail'>
-                  <img className='w-100' src='public/assets/images/about/about-4.png' alt='About Images' />
+                  <img className='w-100' src='./assets/images/about/about-4.png' alt='About Images' />
                 </div>
               </div>
               <div className='col-lg-6'>
@@ -318,7 +318,7 @@ class CorporateBusiness extends Component {
               </div>
               <div className='col-lg-6 order-1 order-lg-2'>
                 <div className='thumbnail position-relative'>
-                  <img className='w-100' src='public/assets/images/about/about-3.png' alt='About Images' />
+                  <img className='w-100' src='./assets/images/about/about-3.png' alt='About Images' />
                   <ModalVideo
                     channel='youtube'
                     isOpen={this.state.isOpen}

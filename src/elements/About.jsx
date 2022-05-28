@@ -31,7 +31,7 @@ class About extends Component {
               <div className='row row--35 align-items-center'>
                 <div className='col-lg-5'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='public/assets/images/about/about-3.jpg' alt='About Images' />
+                    <img className='w-100' src='./assets/images/about/about-3.jpg' alt='About Images' />
                   </div>
                 </div>
                 <div className='col-lg-7'>
@@ -100,7 +100,7 @@ class About extends Component {
             </div>
             <div className='thumbnail'>
               <div className='image'>
-                <img src='public/assets/images/about/finding-us-01.png' alt='Finding Images' />
+                <img src='./assets/images/about/finding-us-01.png' alt='Finding Images' />
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ class About extends Component {
               <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
                 <div className='team'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='public/assets/images/team/team-01.jpg' alt='Blog Images' />
+                    <img className='w-100' src='./assets/images/team/team-01.jpg' alt='Blog Images' />
                   </div>
                   <div className='content'>
                     <h4 className='title'>Jone Due</h4>
@@ -157,7 +157,7 @@ class About extends Component {
               <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
                 <div className='team'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='public/assets/images/team/team-02.jpg' alt='Blog Images' />
+                    <img className='w-100' src='./assets/images/team/team-02.jpg' alt='Blog Images' />
                   </div>
                   <div className='content'>
                     <h4 className='title'>BM. Alamin</h4>
@@ -188,7 +188,7 @@ class About extends Component {
               <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
                 <div className='team'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='public/assets/images/team/team-03.jpg' alt='Blog Images' />
+                    <img className='w-100' src='./assets/images/team/team-03.jpg' alt='Blog Images' />
                   </div>
                   <div className='content'>
                     <h4 className='title'>Jone Due</h4>

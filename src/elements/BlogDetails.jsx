@@ -74,7 +74,7 @@ class BlogDetails extends Component {
                       Lorem Ipsum generators on the Internet tend toitrrepeat predefined chunks.{" "}
                     </p>
                     <div className='thumbnail'>
-                      <img src='public/assets/images/blog/bl-big-01.jpg' alt='Blog Images' />
+                      <img src='./assets/images/blog/bl-big-01.jpg' alt='Blog Images' />
                     </div>
                     <p className='mt--40'>
                       There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -108,7 +108,7 @@ class BlogDetails extends Component {
                       <div className='thumbnail'>
                         <img
                           className='w-100'
-                          src='public/assets/images/blog/blog-single-01.png'
+                          src='./assets/images/blog/blog-single-01.png'
                           alt='BLog Images'
                         />
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span>
@@ -150,7 +150,7 @@ class BlogDetails extends Component {
                     </p>
                     <div className='video-wrapper position-relative mb--40'>
                       <div className='thumbnail'>
-                        <img src='public/assets/images/blog/bl-big-01.jpg' alt='Blog Images' />
+                        <img src='./assets/images/blog/bl-big-01.jpg' alt='Blog Images' />
                       </div>
                       <ModalVideo
                         channel='youtube'

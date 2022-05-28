@@ -603,7 +603,7 @@ class Demo extends Component {
                   <div className='inner'>
                     <div className='logo text-left'>
                       <a href='/'>
-                        <img src='public/assets/images/logo/logo-all-dark.png' alt='Trydo Images' />
+                        <img src='./assets/images/logo/logo-all-dark.png' alt='Trydo Images' />
                       </a>
                     </div>
                     <p className='title'>

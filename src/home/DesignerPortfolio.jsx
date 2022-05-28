@@ -35,7 +35,7 @@ const DesignerPortfolio = () => {
               <div className='row align-items-center'>
                 <div className='col-lg-5'>
                   <div className='designer-thumbnail'>
-                    <img src='public/assets/images/about/designer-avatar.png' alt='Slider Images' />
+                    <img src='./assets/images/about/designer-avatar.png' alt='Slider Images' />
                   </div>
                 </div>
                 <div className='col-lg-7 mt_md--40 mt_sm--40'>

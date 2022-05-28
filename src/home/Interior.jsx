@@ -121,12 +121,8 @@ class InteriorLanding extends Component {
             <div className='header-left'>
               <div className='logo'>
                 <a href='/'>
-                  <img className='logo-1' src='public/assets/images/logo/logo-light.png' alt='Logo Images' />
-                  <img
-                    className='logo-2'
-                    src='public/assets/images/logo/logo-all-dark.png'
-                    alt='Logo Images'
-                  />
+                  <img className='logo-1' src='./assets/images/logo/logo-light.png' alt='Logo Images' />
+                  <img className='logo-2' src='./assets/images/logo/logo-all-dark.png' alt='Logo Images' />
                 </a>
               </div>
             </div>
@@ -285,7 +281,7 @@ class InteriorLanding extends Component {
           <div className='row row--0 align-items-center'>
             <div className='col-lg-12 col-xl-6'>
               <div className='thumbnail'>
-                <img src='public/assets/images/featured/featured-01.jpg' alt='Featured Images' />
+                <img src='./assets/images/featured/featured-01.jpg' alt='Featured Images' />
               </div>
             </div>
             <div className='col-lg-12 col-xl-6 mt_lg--50 mt_md--30 mt_sm--30'>

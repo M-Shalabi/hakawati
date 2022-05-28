@@ -58,21 +58,21 @@ class Testimonial extends Component {
                 <Tab>
                   <div className='testimonial-thumbnai'>
                     <div className='thumb'>
-                      <img src='public/assets/images/client/testimonial-1.jpg' alt='Testimonial Images' />
+                      <img src='./assets/images/client/testimonial-1.jpg' alt='Testimonial Images' />
                     </div>
                   </div>
                 </Tab>
                 <Tab>
                   <div className='testimonial-thumbnai'>
                     <div className='thumb'>
-                      <img src='public/assets/images/client/testimonial-2.jpg' alt='Testimonial Images' />
+                      <img src='./assets/images/client/testimonial-2.jpg' alt='Testimonial Images' />
                     </div>
                   </div>
                 </Tab>
                 <Tab>
                   <div className='testimonial-thumbnai'>
                     <div className='thumb'>
-                      <img src='public/assets/images/client/testimonial-3.jpg' alt='Testimonial Images' />
+                      <img src='./assets/images/client/testimonial-3.jpg' alt='Testimonial Images' />
                     </div>
                   </div>
                 </Tab>

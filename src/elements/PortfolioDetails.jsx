@@ -95,7 +95,7 @@ class PortfolioDetails extends Component {
                   </div>
                   <div className='portfolio-thumb-inner'>
                     <div className='thumb position-relative mb--30'>
-                      <img src='public/assets/images/portfolio/portfolio-big-03.jpg' alt='Portfolio Images' />
+                      <img src='./assets/images/portfolio/portfolio-big-03.jpg' alt='Portfolio Images' />
                       <ModalVideo
                         channel='youtube'
                         isOpen={this.state.isOpen}
@@ -108,11 +108,11 @@ class PortfolioDetails extends Component {
                     </div>
 
                     <div className='thumb mb--30'>
-                      <img src='public/assets/images/portfolio/portfolio-big-02.jpg' alt='Portfolio Images' />
+                      <img src='./assets/images/portfolio/portfolio-big-02.jpg' alt='Portfolio Images' />
                     </div>
 
                     <div className='thumb'>
-                      <img src='public/assets/images/portfolio/portfolio-big-01.jpg' alt='Portfolio Images' />
+                      <img src='./assets/images/portfolio/portfolio-big-01.jpg' alt='Portfolio Images' />
                     </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ class PortfolioDetails extends Component {
                 <div className='related-work text-center mt--30'>
                   <div className='thumb'>
                     <a href='/portfolio-details'>
-                      <img src='public/assets/images/portfolio/related-image-01.jpg' alt='Portfolio-images' />
+                      <img src='./assets/images/portfolio/related-image-01.jpg' alt='Portfolio-images' />
                     </a>
                   </div>
                   <div className='inner'>
@@ -156,7 +156,7 @@ class PortfolioDetails extends Component {
                 <div className='related-work text-center mt--30'>
                   <div className='thumb'>
                     <a href='/portfolio-details'>
-                      <img src='public/assets/images/portfolio/related-image-02.jpg' alt='Portfolio-images' />
+                      <img src='./assets/images/portfolio/related-image-02.jpg' alt='Portfolio-images' />
                     </a>
                   </div>
                   <div className='inner'>

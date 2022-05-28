@@ -39,11 +39,7 @@ class VideoPopup extends Component {
               <div className='row sercice-details-content align-items-center'>
                 <div className='col-lg-12'>
                   <div className='thumb position-relative'>
-                    <img
-                      className='w-100'
-                      src='public/assets/images/blog/bl-big-01.jpg'
-                      alt='Service Images'
-                    />
+                    <img className='w-100' src='./assets/images/blog/bl-big-01.jpg' alt='Service Images' />
                     <ModalVideo
                       channel='youtube'
                       isOpen={this.state.isOpen}
@@ -68,7 +64,7 @@ class VideoPopup extends Component {
                   <div className='thumb position-relative'>
                     <img
                       className='w-100'
-                      src='public/assets/images/portfolio/portfolio-big-02.jpg'
+                      src='./assets/images/portfolio/portfolio-big-02.jpg'
                       alt='Service Images'
                     />
                     <ModalVideo
@@ -86,7 +82,7 @@ class VideoPopup extends Component {
                   <div className='thumb position-relative'>
                     <img
                       className='w-100'
-                      src='public/assets/images/portfolio/portfolio-big-03.jpg'
+                      src='./assets/images/portfolio/portfolio-big-03.jpg'
                       alt='Service Images'
                     />
                     <ModalVideo
@@ -113,7 +109,7 @@ class VideoPopup extends Component {
                   <div className='thumb position-relative'>
                     <img
                       className='w-100'
-                      src='public/assets/images/portfolio/portfolio-big-02.jpg'
+                      src='./assets/images/portfolio/portfolio-big-02.jpg'
                       alt='Service Images'
                     />
                     <ModalVideo
@@ -133,7 +129,7 @@ class VideoPopup extends Component {
                   <div className='thumb position-relative'>
                     <img
                       className='w-100'
-                      src='public/assets/images/portfolio/portfolio-big-01.jpg'
+                      src='./assets/images/portfolio/portfolio-big-01.jpg'
                       alt='Service Images'
                     />
                     <ModalVideo
@@ -153,7 +149,7 @@ class VideoPopup extends Component {
                   <div className='thumb position-relative'>
                     <img
                       className='w-100'
-                      src='public/assets/images/portfolio/portfolio-big-03.jpg'
+                      src='./assets/images/portfolio/portfolio-big-03.jpg'
                       alt='Service Images'
                     />
                     <ModalVideo

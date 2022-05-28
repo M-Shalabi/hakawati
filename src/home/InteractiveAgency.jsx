@@ -147,7 +147,7 @@ const InteractiveAgency = () => {
 
               <div className='col-lg-5 mt_md--40 mt_sm--40'>
                 <div className='thumbnail'>
-                  <img className='w-100' src='public/assets/images/about/about-3.jpg' alt='About Images' />
+                  <img className='w-100' src='./assets/images/about/about-3.jpg' alt='About Images' />
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@ const InteractiveAgency = () => {
           <div className='row sercice-details-content align-items-center'>
             <div className='col-lg-12'>
               <div className='thumb position-relative'>
-                <img className='w-100' src='public/assets/images/bg/bg-image-26.jpg' alt='Service Images' />
+                <img className='w-100' src='./assets/images/bg/bg-image-26.jpg' alt='Service Images' />
                 <VideoModal />
               </div>
             </div>

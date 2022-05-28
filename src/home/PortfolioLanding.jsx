@@ -76,7 +76,7 @@ const PortfolioLanding = () => {
               <div className='row row--35 align-items-center'>
                 <div className='col-lg-5'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='public/assets/images/about/about-7.jpg' alt='About Images' />
+                    <img className='w-100' src='./assets/images/about/about-7.jpg' alt='About Images' />
                   </div>
                 </div>
                 <div className='col-lg-7'>

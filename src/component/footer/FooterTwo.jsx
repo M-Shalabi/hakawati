@@ -16,7 +16,7 @@ const FooterTwo = () => {
             <div className='inner'>
               <div className='logo text-center text-sm-left mb_sm--20'>
                 <a href='/home-one'>
-                  <img src='public/assets/images/logo/haka-logo-light.png' alt='Logo images' />
+                  <img src='./assets/images/logo/haka-logo-light.png' alt='Logo images' />
                 </a>
               </div>
             </div>

@@ -92,16 +92,8 @@ class CreativeLanding extends Component {
             <div className='header-left'>
               <div className='logo'>
                 <a href='/'>
-                  <img
-                    className='logo-1'
-                    src='public/assets/images/logo/haka-logo-light.png'
-                    alt='Logo Images'
-                  />
-                  <img
-                    className='logo-2'
-                    src='public/assets/images/logo/haka-logo-dark.png'
-                    alt='Logo Images'
-                  />
+                  <img className='logo-1' src='./assets/images/logo/haka-logo-light.png' alt='Logo Images' />
+                  <img className='logo-2' src='./assets/images/logo/haka-logo-dark.png' alt='Logo Images' />
                 </a>
               </div>
             </div>
@@ -191,11 +183,7 @@ class CreativeLanding extends Component {
               <div className='row row--35 align-items-center'>
                 <div className='col-lg-5'>
                   <div className='thumbnail'>
-                    <img
-                      className='w-100'
-                      src='public/assets/images/about/about-img.jpg'
-                      alt='About Images'
-                    />
+                    <img className='w-100' src='./assets/images/about/about-img.jpg' alt='About Images' />
                   </div>
                 </div>
                 <div className='col-lg-7'>

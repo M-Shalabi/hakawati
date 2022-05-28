@@ -54,7 +54,7 @@ class ServiceDetails extends Component {
                         <div className='thumb'>
                           <img
                             className='w-100'
-                            src='public/assets/images/service/service-01.png'
+                            src='./assets/images/service/service-01.png'
                             alt='Service Images'
                           />
                         </div>
@@ -112,7 +112,7 @@ class ServiceDetails extends Component {
                         <div className='thumb position-relative'>
                           <img
                             className='w-100'
-                            src='public/assets/images/service/service-02.png'
+                            src='./assets/images/service/service-02.png'
                             alt='Service Images'
                           />
                           <ModalVideo

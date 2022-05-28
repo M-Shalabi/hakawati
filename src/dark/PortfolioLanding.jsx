@@ -81,7 +81,7 @@ const PortfolioLanding = () => {
               <div className='row row--35 align-items-center'>
                 <div className='col-lg-5'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='public/assets/images/about/about-8.jpg' alt='About Images' />
+                    <img className='w-100' src='./assets/images/about/about-8.jpg' alt='About Images' />
                   </div>
                 </div>
                 <div className='col-lg-7'>
@@ -217,7 +217,7 @@ const PortfolioLanding = () => {
       {/* Start COntact Area */}
       <div id='contact' className='fix'>
         <div className='rn-contact-area ptb--120 bg_color--1'>
-          <ContactThree contactImages='public/assets/images/about/about-9.jpg' contactTitle='Hire Me.' />
+          <ContactThree contactImages='./assets/images/about/about-9.jpg' contactTitle='Hire Me.' />
         </div>
       </div>
       {/* End COntact Area */}
