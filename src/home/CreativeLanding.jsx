@@ -189,7 +189,7 @@ class CreativeLanding extends Component {
                 <div className='col-lg-7'>
                   <div className='about-inner inner'>
                     <div className='section-title'>
-                      <h2 className='title'>About Us</h2>
+                      <h2 className='title'>About Us hakawati</h2>
                       <p className='description'>
                         There are many variations of passages of Lorem Ipsum available, but the majority have
                         suffered <a href='#alteration'>alteration</a> in some form, by injected humour, or
