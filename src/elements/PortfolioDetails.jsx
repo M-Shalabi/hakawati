@@ -1,36 +1,29 @@
-import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import { FaTwitter, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+import FooterTwo from "../component/footer/FooterTwo";
+import Navbar from "../component/navbar/Navbar";
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
   { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaTwitter />, link: "https://twitter.com/" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/hakawatiar" },
+  { Social: <FaTwitter />, link: "https://twitter.com/hakawatiar" },
 ];
 
-class PortfolioDetails extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isOpen: false,
-    };
-    this.openModal = this.openModal.bind(this);
-  }
-  openModal() {
-    this.setState({ isOpen: true });
-  }
-  render() {
+const PortfolioDetails = (props) => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  
     return (
       <React.Fragment>
-        <PageHelmet pageTitle='Portfolio Details' />
+        {/* <PageHelmet pageTitle='Wamdah' /> */}
+        <Navbar/>
 
-        <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' />
+        {/* <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' /> */}
 
         {/* Start Breadcrump Area */}
         <div className='rn-page-title-area pt--120 pb--190 bg_image bg_image--4' data-black-overlay='7'>
@@ -98,11 +91,11 @@ class PortfolioDetails extends Component {
                       <img src='./assets/images/portfolio/portfolio-big-03.jpg' alt='Portfolio Images' />
                       <ModalVideo
                         channel='youtube'
-                        isOpen={this.state.isOpen}
-                        videoId='ZOoVOfieAF8'
-                        onClose={() => this.setState({ isOpen: false })}
+                        isOpen={isOpen}
+                        videoId='Ux72Pppz8as'
+                        onClose={() => setIsOpen(false)}
                       />
-                      <button className='video-popup position-top-center' onClick={this.openModal}>
+                      <button className='video-popup position-top-center' onClick={()=>setIsOpen(true)}>
                         <span className='play-icon'></span>
                       </button>
                     </div>
@@ -181,9 +174,9 @@ class PortfolioDetails extends Component {
         </div>
         {/* End Back To Top */}
 
-        <Footer />
+        <FooterTwo />
       </React.Fragment>
     );
-  }
+  
 }
 export default PortfolioDetails;
