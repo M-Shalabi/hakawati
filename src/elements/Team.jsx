@@ -108,25 +108,7 @@ let TeamContent = [
       },
     ],
   },
-  {
-    images: "07",
-    title: "Atheer Minwar",
-    designation: "Sound/Level Designer",
-    socialNetwork: [
-      {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-    ],
-  },
+  
 ];
 
 class Team extends Component {
