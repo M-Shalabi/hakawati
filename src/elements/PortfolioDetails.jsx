@@ -23,8 +23,8 @@ const PortfolioDetails = (props) => {
 
   return (
     <React.Fragment>
-      {/* <PageHelmet pageTitle='Wamdah' /> */}
       <Navbar />
+      {/* <PageHelmet pageTitle='Wamdah' /> */}
 
       {/* <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' /> */}
 

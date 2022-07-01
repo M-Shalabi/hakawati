@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
 import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
@@ -13,14 +13,15 @@ const BlogDetails = (props) => {
 
   return (
     <React.Fragment>
-      <PageHelmet pageTitle="Blog Details" />
+      <Navbar />
+      {/* <PageHelmet pageTitle="Blog Details" /> */}
       {/* <Header
           headertransparent="header--transparent"
           colorblack="color--black"
           logoname="logo.png"
         /> */}
-        
-      <Navbar /> {/* Start Breadcrump Area  */}
+
+      {/* Start Breadcrump Area  */}
       <div
         className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"
         data-black-overlay="7"
