@@ -8,7 +8,7 @@ import { FiChevronUp, FiX, FiMenu } from "react-icons/fi";
 import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import Navbar from "../component/navbar/Navbar";
@@ -250,7 +250,7 @@ const CreativeLanding = (props) => {
         {/* End Testimonial Area */}
 
         {/* Start Blog Area */}
-        <div className='rn-blog-area pt--120 pb--140 bg_color--1' id='blog'>
+        <div className='rn-blog-area pt--120 pb--140 bg_color--1' id='news'>
           <div className='container'>
             <div className='row align-items-end'>
               <div className='col-lg-6'>
@@ -300,7 +300,7 @@ const CreativeLanding = (props) => {
         {/* End Contact Us */}
 
         {/* Start Footer Style  */}
-        <FooterTwo />
+        <Footer />
         {/* End Footer Style  */}
         {/* Start Back To Top */}
         <div className='backto-top'>

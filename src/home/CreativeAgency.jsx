@@ -11,7 +11,7 @@ import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
@@ -244,7 +244,7 @@ class CreativeAgency extends Component{
                 {/* End Brand Area */}
 
                  {/* Start Footer Style  */}
-                 <FooterTwo />
+                 <Footer />
                 {/* End Footer Style  */}
                 {/* Start Back To Top */}
                 <div className="backto-top">

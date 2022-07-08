@@ -18,7 +18,7 @@ export default function Navbar({ pageTitle }) {
     team: "#team",
     testimonial: "#testimonial",
     news: "#news",
-    contact: "#contact",
+    // contact: "#contact",
   });
 
   // if(pageTitle!='Home') {
@@ -81,9 +81,9 @@ export default function Navbar({ pageTitle }) {
                 <li>
                   <a href={`${refs.news}`}>News</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href={`${refs.contact}`}>Contact</a>
-                </li>
+                </li> */}
               </Scrollspy>
             </nav>
 

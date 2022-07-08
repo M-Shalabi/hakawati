@@ -3,7 +3,7 @@ import ScrollToTop from "react-scroll-up";
 import { Link } from "react-router-dom";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderTwo from "../component/header/HeaderTwo";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import Brand from "../elements/Brand";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
@@ -160,7 +160,7 @@ class PersonalPortfolio extends Component {
         </div>
         {/* End Portfolio Area */}
 
-        <FooterTwo />
+        <Footer />
 
         {/* Start Back To Top */}
         <div className='backto-top'>

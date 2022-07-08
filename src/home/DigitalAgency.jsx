@@ -5,7 +5,7 @@ import { FiChevronUp } from "react-icons/fi";
 import { slideSlick } from "../page-demo/script";
 import ServiceList from "../elements/service/ServiceList";
 import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import Testimonial from "../elements/Testimonial";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import BlogContent from "../elements/blog/BlogContent";
@@ -282,7 +282,7 @@ class DigitalAgency extends Component {
         {/* End call To Action  */}
 
         {/* Start Footer Style  */}
-        <FooterTwo />
+        <Footer />
         {/* End Footer Style  */}
         {/* Start Back To Top */}
         <div className='backto-top'>

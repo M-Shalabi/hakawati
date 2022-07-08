@@ -8,7 +8,7 @@ import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import CallAction from "../elements/callaction/CallAction";
 import Team from "../elements/Team";
 import Accordion01 from "../elements/Accordion";
@@ -349,7 +349,7 @@ class Business extends Component {
         {/* End call To Action  */}
 
         {/* Start Footer Style  */}
-        <FooterTwo />
+        <Footer />
         {/* End Footer Style  */}
 
         {/* Start Back To Top */}

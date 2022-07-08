@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import Navbar from "../component/navbar/Navbar";
 
 const SocialShare = [
@@ -207,7 +207,7 @@ const PortfolioDetails = (props) => {
       </div>
       {/* End Back To Top */}
 
-      <FooterTwo />
+      <Footer />
     </React.Fragment>
   );
 };

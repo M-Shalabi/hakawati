@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { slideSlick } from "../page-demo/script";
 import BlogContent from "../elements/blog/BlogContent";
 import Header from "../component/header/HeaderFive";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import CallAction from "../elements/callaction/CallAction";
 import Team from "../blocks/team/TeamTwo";
 import Accordion01 from "../elements/Accordion";
@@ -537,7 +537,7 @@ class CorporateBusiness extends Component {
         {/* End call To Action  */}
 
         {/* Start Footer Style  */}
-        <FooterTwo />
+        <Footer />
         {/* End Footer Style  */}
 
         {/* Start Back To Top */}

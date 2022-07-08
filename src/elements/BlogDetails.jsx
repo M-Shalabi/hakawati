@@ -5,7 +5,7 @@ import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import Navbar from "../component/navbar/Navbar";
 
 const BlogDetails = (props) => {
@@ -270,7 +270,7 @@ const BlogDetails = (props) => {
         </ScrollToTop>
       </div>
       {/* End Back To Top */}
-      <FooterTwo />
+      <Footer />
     </React.Fragment>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import PortfolioList from "../elements/portfolio/PortfolioList";
@@ -217,7 +217,7 @@ const PortfolioLanding = () => {
       </div>
       {/* End COntact Area */}
 
-      <FooterTwo />
+      <Footer />
       {/* Start Back To Top */}
       <div className='backto-top'>
         <ScrollToTop showUnder={160}>

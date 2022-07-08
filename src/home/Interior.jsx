@@ -4,7 +4,7 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp, FiX, FiMenu } from "react-icons/fi";
 import CounterOne from "../elements/counters/CounterTwo";
 import Testimonial from "../elements/Testimonial";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import Helmet from "../component/common/Helmet";
 import TeamOne from "../blocks/team/TeamOne";
 import Slider from "react-slick";
@@ -385,7 +385,7 @@ class InteriorLanding extends Component {
         {/* End Portfolio Area */}
 
         {/* Start Footer Style  */}
-        <FooterTwo />
+        <Footer />
         {/* End Footer Style  */}
 
         {/* Start Back To Top */}

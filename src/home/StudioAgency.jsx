@@ -9,7 +9,7 @@ import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import ModalVideo from 'react-modal-video';
 import { videoTagString, VideoTag } from 'react-video-tag';
 import Helmet from "../component/common/Helmet";
@@ -178,7 +178,7 @@ class StudioAgency extends Component{
                 {/* End Brand Area */}
 
                 {/* Start Footer Area  */}
-                <FooterTwo />
+                <Footer />
                 {/* End Footer Area  */}
 
                 {/* Start Back To Top */}

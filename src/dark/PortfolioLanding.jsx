@@ -4,7 +4,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
@@ -222,7 +222,7 @@ const PortfolioLanding = () => {
       </div>
       {/* End COntact Area */}
 
-      <FooterTwo />
+      <Footer />
       {/* Start Back To Top */}
       <div className='backto-top'>
         <ScrollToTop showUnder={160}>
