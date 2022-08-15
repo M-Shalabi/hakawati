@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 let TeamContent = [
   {
@@ -7,10 +7,6 @@ let TeamContent = [
     title: "Abdullah Ba Mashmous",
     designation: "CEO & Producer",
     socialNetwork: [
-      {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
       {
         icon: <FaLinkedinIn />,
         url: "#",
@@ -27,10 +23,6 @@ let TeamContent = [
     designation: "Art Director",
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
-      {
         icon: <FaLinkedinIn />,
         url: "#",
       },
@@ -41,10 +33,6 @@ let TeamContent = [
     title: "Mohammed Shalabi",
     designation: "Developer",
     socialNetwork: [
-      {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
       {
         icon: <FaLinkedinIn />,
         url: "#",
@@ -61,10 +49,6 @@ let TeamContent = [
     designation: "UX/UI Designer",
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
-      {
         icon: <FaLinkedinIn />,
         url: "#",
       },
@@ -80,10 +64,6 @@ let TeamContent = [
     designation: "Visual Artist",
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
-      {
         icon: <FaLinkedinIn />,
         url: "#",
       },
@@ -95,10 +75,6 @@ let TeamContent = [
     designation: "Game Developer",
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: "#",
-      },
-      {
         icon: <FaLinkedinIn />,
         url: "#",
       },
@@ -108,7 +84,6 @@ let TeamContent = [
       },
     ],
   },
-  
 ];
 
 class Team extends Component {

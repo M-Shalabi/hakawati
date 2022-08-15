@@ -118,6 +118,11 @@ class Root extends Component {
             />
             <Route
               exact
+              path={`${process.env.PUBLIC_URL}/portfolios/:`}
+              component={PortfolioDetails}
+            />
+            <Route
+              exact
               path={`${process.env.PUBLIC_URL}/blog`}
               component={Blog}
             />

@@ -208,7 +208,7 @@ const CreativeLanding = (props) => {
                               </div>
                             </div>
                           </div>
-                          <Link className='link-overlay' to='/portfolio-details'></Link>
+                          <Link className='link-overlay' to={`/portfolios/PortfolioDetailsWamdah`}></Link>
                         </div>
                       ))}
                     </Slider>

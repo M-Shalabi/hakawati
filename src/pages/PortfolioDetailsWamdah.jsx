@@ -15,7 +15,7 @@ const SocialShare = [
   { Social: <FaTwitter />, link: "https://twitter.com/hakawatiar" },
 ];
 
-const PortfolioDetails = (props) => {
+const PortfolioDetailsWamdah = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -208,4 +208,4 @@ const PortfolioDetails = (props) => {
     </React.Fragment>
   );
 };
-export default PortfolioDetails;
+export default PortfolioDetailsWamdah;

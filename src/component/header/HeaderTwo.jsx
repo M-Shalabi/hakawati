@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { FaTwitter, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/company/hakawati-studio",
+  },
   { Social: <FaInstagram />, link: "https://www.instagram.com/" },
   { Social: <FaTwitter />, link: "https://twitter.com/" },
 ];
@@ -33,7 +35,9 @@ class Header extends Component {
     for (var i in elements) {
       if (elements.hasOwnProperty(i)) {
         elements[i].onclick = function () {
-          this.parentElement.querySelector(".submenu").classList.toggle("active");
+          this.parentElement
+            .querySelector(".submenu")
+            .classList.toggle("active");
           this.classList.toggle("open");
         };
       }
@@ -41,175 +45,195 @@ class Header extends Component {
     const { logo, color = "default-color" } = this.props;
     let logoUrl;
     if (logo === "light") {
-      logoUrl = <img src='./assets/images/logo/logo-light.png' alt='Digital Agency' />;
+      logoUrl = (
+        <img src="./assets/images/logo/logo-light.png" alt="Digital Agency" />
+      );
     } else if (logo === "dark") {
-      logoUrl = <img src='./assets/images/logo/logo-dark.png' alt='Digital Agency' />;
+      logoUrl = (
+        <img src="./assets/images/logo/logo-dark.png" alt="Digital Agency" />
+      );
     } else if (logo === "symbol-dark") {
-      logoUrl = <img src='./assets/images/logo/logo-symbol-dark.png' alt='Digital Agency' />;
+      logoUrl = (
+        <img
+          src="./assets/images/logo/logo-symbol-dark.png"
+          alt="Digital Agency"
+        />
+      );
     } else if (logo === "symbol-light") {
-      logoUrl = <img src='./assets/images/logo/logo-symbol-light.png' alt='Digital Agency' />;
+      logoUrl = (
+        <img
+          src="./assets/images/logo/logo-symbol-light.png"
+          alt="Digital Agency"
+        />
+      );
     } else {
-      logoUrl = <img src='./assets/images/logo/logo.png' alt='Digital Agency' />;
+      logoUrl = (
+        <img src="./assets/images/logo/logo.png" alt="Digital Agency" />
+      );
     }
     return (
-      <header className={`header-area header-style-two header--transparent ${color}`}>
-        <div className='header-wrapper'>
-          <div className='header-left d-flex align-items-center'>
-            <div className='logo'>
-              <a href='/'>{logoUrl}</a>
+      <header
+        className={`header-area header-style-two header--transparent ${color}`}
+      >
+        <div className="header-wrapper">
+          <div className="header-left d-flex align-items-center">
+            <div className="logo">
+              <a href="/">{logoUrl}</a>
             </div>
-            <nav className='mainmenunav d-lg-block ml--50'>
-              <ul className='mainmenu'>
-                <li className='has-droupdown'>
-                  <Link to='#'>Home</Link>
-                  <ul className='submenu'>
+            <nav className="mainmenunav d-lg-block ml--50">
+              <ul className="mainmenu">
+                <li className="has-droupdown">
+                  <Link to="#">Home</Link>
+                  <ul className="submenu">
                     <li>
-                      <Link to='/main-demo'>Main Demo</Link>
+                      <Link to="/main-demo">Main Demo</Link>
                     </li>
                     <li>
-                      <Link to='/dark-main-demo'>Main Demo Dark</Link>
+                      <Link to="/dark-main-demo">Main Demo Dark</Link>
                     </li>
                     <li>
-                      <Link to='/creative-agency'>Creative Agency</Link>
+                      <Link to="/creative-agency">Creative Agency</Link>
                     </li>
                     <li>
-                      <Link to='/creative-landing'>Creative One Page</Link>
+                      <Link to="/creative-landing">Creative One Page</Link>
                     </li>
                     <li>
-                      <Link to='/creative-portfolio'>Creative Portfolio</Link>
+                      <Link to="/creative-portfolio">Creative Portfolio</Link>
                     </li>
                     <li>
-                      <Link to='/personal-portfolio'>Personal Portfolio</Link>
+                      <Link to="/personal-portfolio">Personal Portfolio</Link>
                     </li>
                     <li>
-                      <Link to='/portfolio-landing'>Portfolio One Page</Link>
+                      <Link to="/portfolio-landing">Portfolio One Page</Link>
                     </li>
                     <li>
-                      <Link to='/dark-portfolio-landing'>Portfolio One Page 02</Link>
+                      <Link to="/dark-portfolio-landing">
+                        Portfolio One Page 02
+                      </Link>
                     </li>
                     <li>
-                      <Link to='/digital-agency'>Digital Agency</Link>
+                      <Link to="/digital-agency">Digital Agency</Link>
                     </li>
                     <li>
-                      <Link to='/startup'>Startup</Link>
+                      <Link to="/startup">Startup</Link>
                     </li>
                     <li>
-                      <Link to='/paralax'>Paralax</Link>
+                      <Link to="/paralax">Paralax</Link>
                     </li>
                     <li>
-                      <Link to='/portfolio-home'>Minimal Portfolio</Link>
+                      <Link to="/portfolio-home">Minimal Portfolio</Link>
                     </li>
                     <li>
-                      <Link to='/business'>Business</Link>
+                      <Link to="/business">Business</Link>
                     </li>
                     <li>
-                      <Link to='/home-particles'>Home Particles</Link>
+                      <Link to="/home-particles">Home Particles</Link>
                     </li>
                     <li>
-                      <Link to='/studio-agency'>Studio Agency</Link>
+                      <Link to="/studio-agency">Studio Agency</Link>
                     </li>
                     <li>
-                      <Link to='/designer-portfolio'>Designer Portfolio</Link>
+                      <Link to="/designer-portfolio">Designer Portfolio</Link>
                     </li>
                     <li>
-                      <Link to='/interactive-agency'>Interactive Agency</Link>
+                      <Link to="/interactive-agency">Interactive Agency</Link>
                     </li>
                   </ul>
                 </li>
-                <li className='has-droupdown'>
-                  <Link to='/service'>Service</Link>
-                  <ul className='submenu'>
+                <li className="has-droupdown">
+                  <Link to="/service">Service</Link>
+                  <ul className="submenu">
                     <li>
-                      <Link to='/service'>Service</Link>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li>
-                      <Link to='/service-details'>Service Details</Link>
+                      <Link to="/service-details">Service Details</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to='/about'>About</Link>
+                  <Link to="/about">About</Link>
                 </li>
 
-                <li className='has-droupdown'>
-                  <Link to='#pages'>Pages</Link>
-                  <ul className='submenu'>
+                <li className="has-droupdown">
+                  <Link to="#pages">Pages</Link>
+                  <ul className="submenu">
                     <li>
-                      <Link to='/blog'>Blog List</Link>
+                      <Link to="/blog">Blog List</Link>
                     </li>
                     <li>
-                      <Link to='/blog-details'>Blog Details</Link>
+                      <Link to="/blog-details">Blog Details</Link>
                     </li>
                     <li>
-                      <Link to='/service'>Service</Link>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li>
-                      <Link to='/service-details'>Service Details</Link>
+                      <Link to="/service-details">Service Details</Link>
                     </li>
                     <li>
-                      <Link to='/portfolio'>Portfolio</Link>
+                      <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li>
-                      <Link to='/portfolio-details'>Portfolio Details</Link>
+                      <Link to="/portfolio-details">Portfolio Details</Link>
                     </li>
                     <li>
-                      <Link to='/404'>404</Link>
+                      <Link to="/404">404</Link>
                     </li>
                   </ul>
                 </li>
-                <li className='has-droupdown'>
-                  <Link to='#'>Blocks</Link>
-                  <ul className='submenu'>
+                <li className="has-droupdown">
+                  <Link to="#">Blocks</Link>
+                  <ul className="submenu">
                     <li>
-                      <Link to='/portfolio'>Portfolio</Link>
+                      <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li>
-                      <Link to='/team'>Team</Link>
+                      <Link to="/team">Team</Link>
                     </li>
                     <li>
-                      <Link to='/service'>Service</Link>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li>
-                      <Link to='/video-popup'>Video Popup</Link>
+                      <Link to="/video-popup">Video Popup</Link>
                     </li>
                     <li>
-                      <Link to='/progressbar'>Progressbar</Link>
+                      <Link to="/progressbar">Progressbar</Link>
                     </li>
                     <li>
-                      <Link to='/gallery'>Gallery</Link>
+                      <Link to="/gallery">Gallery</Link>
                     </li>
                     <li>
-                      <Link to='/counters'>Counters</Link>
+                      <Link to="/counters">Counters</Link>
                     </li>
                     <li>
-                      <Link to='/blog'>Blog List</Link>
+                      <Link to="/blog">Blog List</Link>
                     </li>
                     <li>
-                      <Link to='/clint-logo'>Clint Logo</Link>
+                      <Link to="/clint-logo">Clint Logo</Link>
                     </li>
                     <li>
-                      <Link to='/contact-form'>Contact Form</Link>
+                      <Link to="/contact-form">Contact Form</Link>
                     </li>
                     <li>
-                      <Link to='/google-map'>Google Map</Link>
+                      <Link to="/google-map">Google Map</Link>
                     </li>
                     <li>
-                      <Link to='/columns'>Columns</Link>
+                      <Link to="/columns">Columns</Link>
                     </li>
                     <li>
-                      <Link to='/pricing-table'>Pricing Table</Link>
+                      <Link to="/pricing-table">Pricing Table</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to='/contact'>Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
           </div>
-          <div className='header-right'>
-            <div className='social-share-inner'>
-              <ul className='social-share social-style--2 color-black d-flex justify-content-start liststyle'>
+          <div className="header-right">
+            <div className="social-share-inner">
+              <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                 {SocialShare.map((val, i) => (
                   <li key={i}>
                     <a href={`${val.link}`}>{val.Social}</a>
@@ -217,22 +241,26 @@ class Header extends Component {
                 ))}
               </ul>
             </div>
-            <div className='header-btn'>
+            <div className="header-btn">
               <a
-                className='rn-btn'
-                href='https://themeforest.net/checkout/from_item/25457315?license=regular'>
+                className="rn-btn"
+                href="https://themeforest.net/checkout/from_item/25457315?license=regular"
+              >
                 <span>buy now</span>
               </a>
             </div>
             {/* Start Humberger Menu  */}
-            <div className='humberger-menu d-block d-lg-none pl--20'>
-              <span onClick={this.menuTrigger} className='menutrigger text-white'>
+            <div className="humberger-menu d-block d-lg-none pl--20">
+              <span
+                onClick={this.menuTrigger}
+                className="menutrigger text-white"
+              >
                 <FiMenu />
               </span>
             </div>
             {/* End Humberger Menu  */}
-            <div className='close-menu d-block d-lg-none'>
-              <span onClick={this.CLoseMenuTrigger} className='closeTrigger'>
+            <div className="close-menu d-block d-lg-none">
+              <span onClick={this.CLoseMenuTrigger} className="closeTrigger">
                 <FiX />
               </span>
             </div>
