@@ -55,7 +55,7 @@ const PortfolioDetails = (props) => {
             <div className="col-lg-12">
               <div className="portfolio-details">
                 <div className="inner">
-                  <h2>Trydo</h2>
+                  <h2>Hakawati Game</h2>
                   <p className="subtitle">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some

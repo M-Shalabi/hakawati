@@ -37,6 +37,9 @@ import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
+import PortfolioHakawatiBooks from "./elements/PortfolioHakawatiBooks";
+import PortfolioHakawatiGame from "./elements/PortfolioHakawatiGame";
+import PortfolioWamdah from "./elements/PortfolioWamdah";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -118,8 +121,18 @@ class Root extends Component {
             />
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/portfolios/:`}
-              component={PortfolioDetails}
+              path={`${process.env.PUBLIC_URL}/portfolio-wamdah`}
+              component={PortfolioWamdah}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/portfolio-hakawatiGame`}
+              component={PortfolioHakawatiGame}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/portfolio-hakawatiBooks`}
+              component={PortfolioHakawatiBooks}
             />
             <Route
               exact
