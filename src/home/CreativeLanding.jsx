@@ -12,7 +12,7 @@ import Footer from "../component/footer/Footer";
 import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import Navbar from "../component/navbar/Navbar";
-
+import HakawatiStudioShowcase from "../../public/assets/videos/Hakawati_Studio_Showcase.mp4";
 const SlideList = [
   {
     textPosition: "text-center",
@@ -89,46 +89,10 @@ const CreativeLanding = (props) => {
 
       {/* Start Slider Area   */}
       <div className="slider-activation slider-creative-agency" id="home">
-        <div className="bg_image bg_image--26" data-black-overlay="6">
-          {SlideList.map((value, index) => (
-            <div
-              className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center"
-              key={index}
-            >
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className={`inner ${value.textPosition}`}>
-                      {value.category ? <span>{value.category}</span> : ""}
-                      {value.title ? (
-                        <h1 className="title theme-gradient">{value.title}</h1>
-                      ) : (
-                        ""
-                      )}
-                      {value.description ? (
-                        <p className="description">{value.description}</p>
-                      ) : (
-                        ""
-                      )}
-                      {value.buttonText ? (
-                        <div className="slide-btn">
-                          <a
-                            className="rn-button-style--2 btn-primary-color"
-                            href={`${value.buttonLink}`}
-                          >
-                            {value.buttonText}
-                          </a>
-                        </div>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <div className="video_overlay"></div>
+        <video className="bg_image videoTag" autoPlay loop muted>
+          <source src={HakawatiStudioShowcase} type="video/mp4" />
+        </video>
       </div>
       {/* End Slider Area   */}
 
