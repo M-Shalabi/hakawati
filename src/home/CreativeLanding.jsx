@@ -2,6 +2,7 @@ import React, { Component, Fragment, useEffect, useState } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { slickDot } from "../page-demo/script";
+import { slickDot2 } from "../page-demo/script";
 import Scrollspy from "react-scrollspy";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp, FiX, FiMenu } from "react-icons/fi";
@@ -37,12 +38,6 @@ const list = [
     category: "Development",
     title: "Hakawati Game",
     url: "hakawatiGame",
-  },
-  {
-    image: "image-3",
-    category: "Development",
-    title: "Hakawati Books",
-    url: "hakawatiBooks",
   },
 ];
 
@@ -169,7 +164,7 @@ const CreativeLanding = (props) => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="slick-space-gutter--15 slickdot--20">
-                  <Slider {...slickDot}>
+                  <Slider {...slickDot2}>
                     {list.map((value, index) => (
                       <div className="portfolio" key={index}>
                         <div className="thumbnail-inner">
@@ -287,7 +282,6 @@ const CreativeLanding = (props) => {
         </div>
       </div>
       {/* End Blog Area */}
-
       {/* Start Contact Us */}
       {/* <div className="rn-contact-us ptb--120 bg_color--5" id="contact">
                     <Contact />

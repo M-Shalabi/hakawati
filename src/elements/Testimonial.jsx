@@ -11,13 +11,12 @@ class Testimonial extends Component {
                 <div className='rn-testimonial-content text-center'>
                   <div className='inner'>
                     <p>
-                      Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
-                      those interested. Sections Bonorum et Malorum original.
+                    We have worked with iLogos on several projects and had an overall good experience with them. It was especially the fact that we share the commitment and dedication to create great games.
                     </p>
                   </div>
                   <div className='author-info'>
                     <h6>
-                      <span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.
+                      <span>Rodrigo Terra  </span> - CTE at ARVORE 
                     </h6>
                   </div>
                 </div>
@@ -27,13 +26,12 @@ class Testimonial extends Component {
                 <div className='rn-testimonial-content text-center'>
                   <div className='inner'>
                     <p>
-                      Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
-                      those interested. Sections Bonorum et Malorum original.
+                    the studio provides a great combination of technical skills and strong communication, which is something you do not always get from an external team.
                     </p>
                   </div>
                   <div className='author-info'>
                     <h6>
-                      <span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.
+                      <span>Simon Benson </span> - Producer at Playstation Immersive Lab
                     </h6>
                   </div>
                 </div>
@@ -42,13 +40,13 @@ class Testimonial extends Component {
                 <div className='rn-testimonial-content text-center'>
                   <div className='inner'>
                     <p>
-                      Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-                      for those interested. Sections Bonorum et Malorum original.
+                    The XP of working with Hakawati Studio to create a game for us was fantastic. You guys were really professional and open for feedback.
                     </p>
                   </div>
                   <div className='author-info'>
                     <h6>
-                      <span>Jannat Tumpa </span> - COO, AMERIMAR ENTERPRISES, INC.
+                      <span>Maddalena Crosti </span> - XR and Innovation Program Manager
+
                     </h6>
                   </div>
                 </div>
@@ -58,21 +56,21 @@ class Testimonial extends Component {
                 <Tab>
                   <div className='testimonial-thumbnai'>
                     <div className='thumb'>
-                      <img src='./assets/images/client/testimonial-1.jpg' alt='Testimonial Images' />
+                      <img src='./assets/images/client/rodrigo-terra.jpeg' alt='Testimonial Images' />
                     </div>
                   </div>
                 </Tab>
                 <Tab>
                   <div className='testimonial-thumbnai'>
                     <div className='thumb'>
-                      <img src='./assets/images/client/testimonial-2.jpg' alt='Testimonial Images' />
+                      <img src='./assets/images/client/Simon-Benson.png' alt='Testimonial Images' />
                     </div>
                   </div>
                 </Tab>
                 <Tab>
                   <div className='testimonial-thumbnai'>
                     <div className='thumb'>
-                      <img src='./assets/images/client/testimonial-3.jpg' alt='Testimonial Images' />
+                      <img src='./assets/images/client/Maddalena-Crosti.jpeg' alt='Testimonial Images' />
                     </div>
                   </div>
                 </Tab>

@@ -31,7 +31,7 @@ const BlogDetails = (props) => {
             <div className="col-lg-12">
               <div className="blog-single-page-title text-center pt--100">
                 <h2 className="title theme-gradient">
-                  The Home of the Future <br /> Could Bebes
+                  Gamers season  <br /> Boulvard
                 </h2>
                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                   <li>
@@ -41,14 +41,6 @@ const BlogDetails = (props) => {
                   <li>
                     <FiUser />
                     NipaBali
-                  </li>
-                  <li>
-                    <FiMessageCircle />
-                    15 Comments
-                  </li>
-                  <li>
-                    <FiHeart />
-                    Like
                   </li>
                 </ul>
               </div>
@@ -219,50 +211,7 @@ const BlogDetails = (props) => {
         </div>
       </div>
       {/* End Blog Details */}
-      {/* Start BLog Comment Form  */}
-      <div className="blog-comment-form pb--120 bg_color--1">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="inner">
-                <h3 className="title mb--40 fontWeight500">Leave a Reply</h3>
-                <form action="#">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-12 col-12">
-                      <div className="rnform-group">
-                        <input type="text" placeholder="Name" />
-                      </div>
-                      <div className="rnform-group">
-                        <input type="email" placeholder="Email" />
-                      </div>
-                      <div className="rnform-group">
-                        <input type="text" placeholder="Website" />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12 col-12">
-                      <div className="rnform-group">
-                        <textarea type="text" placeholder="Comment"></textarea>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="blog-btn">
-                        {/* <a className="rn-button-style--2 btn-solid" href="#"></a> */}
-                        <Link
-                          className="rn-button-style--2 btn-solid"
-                          to="/blog-details"
-                        >
-                          <span>SEND MESSAGE</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* End BLog Comment Form  */}
+      
       {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>

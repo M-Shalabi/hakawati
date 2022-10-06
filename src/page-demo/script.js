@@ -63,7 +63,39 @@ export const slickDot = {
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
-    arrows: false,
+    arrows: true,
+    responsive: [{
+        breakpoint: 800,
+        settings: {
+            slidesToShow: 2,
+        }
+    },
+    {
+        breakpoint: 993,
+        settings: {
+            slidesToShow: 2,
+        }
+    },
+    {
+        breakpoint: 580,
+        settings: {
+            slidesToShow: 2,
+        }
+    },
+    {
+        breakpoint: 481,
+        settings: {
+            slidesToShow: 1,
+        }
+    }
+]
+};
+export const slickDot2 = {
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true,
     responsive: [{
         breakpoint: 800,
         settings: {
