@@ -253,3 +253,19 @@ BLog Details Styles
     }
   }
 }
+
+.bg_image--hakaGame {
+  background-image: url(/assets/images/blog/GAMERS8.png) !important;
+}
+
+.bg_image--wamdah {
+  background-image: url(/assets/images/blog/Ithra_Creative_Solutions_Demo_Day.jpeg) !important;
+}
+
+.blog {
+  .thumbnail {
+    // img {
+    height: 30rem;
+    // }
+  }
+}

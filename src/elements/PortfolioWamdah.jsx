@@ -70,20 +70,20 @@ const PortfolioDetails = (props) => {
                   </p>
 
                   <div className="portfolio-view-list d-flex flex-wrap">
-                    <div className="port-view">
+                    {/* <div className="port-view">
                       <span>Branch</span>
                       <h4>Ability</h4>
-                    </div>
+                    </div> */}
 
                     <div className="port-view">
                       <span>Project Type</span>
                       <h4>Virtual Reality, Interactive Film</h4>
                     </div>
 
-                    <div className="port-view">
+                    {/* <div className="port-view">
                       <span>Program</span>
                       <h4>View Project</h4>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">

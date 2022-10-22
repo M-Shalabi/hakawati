@@ -23,7 +23,7 @@ const BlogDetails = (props) => {
 
       {/* Start Breadcrump Area  */}
       <div
-        className="rn-page-title-area pt--120 pb--190 bg_image bg_image--hakaGame"
+        className="rn-page-title-area pt--120 pb--190 bg_image bg_image--wamdah"
         data-black-overlay="7"
       >
         <div className="container">
@@ -31,12 +31,12 @@ const BlogDetails = (props) => {
             <div className="col-lg-12">
               <div className="blog-single-page-title text-center pt--100">
                 <h2 className="title theme-gradient">
-                  Gamers season  <br /> Boulvard
+                  Ithra showcase in London
                 </h2>
                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                   <li>
                     <FiClock />
-                    May 18, 2020
+                    March 23, 2022
                   </li>
                   <li>
                     {/* <FiUser />
@@ -57,14 +57,7 @@ const BlogDetails = (props) => {
               <div className="inner-wrapper">
                 <div className="inner">
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour, or randomised words which don't
-                    look even slightly believable. If you are going to use a
-                    passage of Lorem Ipsum. You need to be sure there isn't
-                    anything embarrassing hidden in the middle of text. All the
-                    Lorem Ipsum generators on the Internet tend toitrrepeat
-                    predefined chunks.{" "}
+                    Of the 27 groups in the Creative Solutions Initiative, five had projects selected for a global bootcamp in London.
                   </p>
                   <div className="thumbnail">
                     <img
@@ -73,6 +66,8 @@ const BlogDetails = (props) => {
                     />
                   </div>
                   <p className="mt--40">
+                    The journey to the modern city Neom is rooted in the experiences of the 1970s for Abdullah Ba Mashmos. “This an XR/VR interactive story about a guy who was from the 1970s and who goes on a journey to find his lost brother,” he said. "Every player going to put on their VR headset and they're going to experience life from the day through the protagonist's eyes. They're going to go from one place to another until they reach the mountains where they will get trapped in an ancient time machine which will take them to Saudi Arabia, all the way to the future in a city called Neom.{" "}
+
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
                     form, by injected humour, or randomised words which don't
@@ -83,18 +78,15 @@ const BlogDetails = (props) => {
                     predefined chunks.{" "}
                   </p>
                   <p>
-                    Necessary, making this the first true generator on the
-                    Internet. It re are many variations of passages of Lo rem
-                    Ipsum available, but the majority have suffered alteration
-                    in some form, by injectedeed eedhumour, or randomised words
-                    which don't look even slightly believable.
+                    All five finalists will have the opportunity on this “Demo Day” to showcase their work and allow guests to explore the different ways of engaging in immersive technologies.
+                    “As the Kingdom’s leading hub for creatives and innovators, we offer year-round programs that support the growth of Saudi’s creative sector by providing established and budding creatives with the resources, expertise and opportunities to unleash their potential, said Miznah A. AlZamil, head of the Creativity and Innovation Department at Ithra.
                   </p>
-                  <blockquote className="rn-blog-quote">
+                  {/* <blockquote className="rn-blog-quote">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
                     natoque penatibus et magnis dis parturient montes.
-                  </blockquote>
-                  <p>
+                  </blockquote> */}
+                  {/* <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
                     form, by injected humour, or randomised words which don't
@@ -203,7 +195,7 @@ const BlogDetails = (props) => {
                     suffered alteration in some form, by injectedeed eedhumour,
                     or randomised words which don't look even slightly
                     believable.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -211,7 +203,7 @@ const BlogDetails = (props) => {
         </div>
       </div>
       {/* End Blog Details */}
-      
+
       {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>

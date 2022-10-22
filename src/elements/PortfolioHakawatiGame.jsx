@@ -58,37 +58,17 @@ const PortfolioDetails = (props) => {
                   <h2>Hakawati Game</h2>
                   <p className="subtitle">
                     Even the smallest person can make a big difference. Join
-                    Alba, as she sets out to save her beautiful island and its
+                    Molham, as he sets out to save his beautiful island and its
                     wildlife. And possibly start a revolution.
-                  </p>
-                  <p>
-                    join Alba as she visits her grandparents on a Mediterranean
-                    island. She is ready for a peaceful summer of wildlife
-                    exploration with her friend Ines, but when she sees an
-                    animal in danger, she realises she needs to do something
-                    about it. This is truly a Mediterranean paradise if you
-                    ignore all the litter! From the idyllic beaches to the
-                    ancient castle overlooking the town a whole island is ready
-                    to be explored. With Ines and your grandfather - who is a
-                    total bird nerd - by your side, you can start the movement
-                    to save the island. Maybe even the world after that.{" "}
                   </p>
 
                   <div className="portfolio-view-list d-flex flex-wrap">
-                    <div className="port-view">
-                      <span>Branch</span>
-                      <h4>Ability</h4>
-                    </div>
 
                     <div className="port-view">
                       <span>Project Types</span>
-                      <h4>Website</h4>
+                      <h4>Game, Open world</h4>
                     </div>
 
-                    <div className="port-view">
-                      <span>Program</span>
-                      <h4>View Project</h4>
-                    </div>
                   </div>
 
                   <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">

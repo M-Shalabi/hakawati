@@ -1,28 +1,21 @@
 const BlogContent = [
     {
-        images: '01',
+        images: 'GAMERS8-2',
+        title: 'Gamers Season',
+        category: 'Development',
+        url: 'gamers-season'
+    },
+    {
+        images: 'blog-01',
         title: 'Leap Event',
         category: 'Development',
-        url: 'gamers-season'
+        url: 'leap'
     },
     {
-        images: '02',
-        title: 'Finalist on QXl in Austuralia',
-        category: 'Management',
-        url: 'gamers-season'
-    },
-
-    {
-        images: '03',
-        title: 'Won Ithra and demo in London',
+        images: 'wamdah-bg',
+        title: 'Ithra showcase in London',
         category: 'Design',
-        url: 'gamers-season'
-    },
-    {
-        images: '04',
-        title: 'Workshop at Almadinah developmen',
-        category: 'Development',
-        url: 'gamers-season'
+        url: 'wamdah'
     },
 ]
 

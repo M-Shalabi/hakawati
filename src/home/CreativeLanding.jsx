@@ -112,7 +112,7 @@ const CreativeLanding = (props) => {
                   <div className="section-title">
                     <h2 className="title">About Hakawati</h2>
                     <p className="description">
-                    A story-driven visionary studio, using games and Immersive technologies to create interactive experiences 
+                      A story-driven visionary studio, using games and Immersive technologies to create interactive experiences
                     </p>
                   </div>
                   <div className="row mt--30">
@@ -235,20 +235,20 @@ const CreativeLanding = (props) => {
                 {PostList.map((value, i) => (
                   <div className="blog blog-style--1" key={i}>
                     <div className="thumbnail">
-                      <a href={`/blog-${value.url}`}>
+                      <a href={`#`}>
                         <img
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
+                          src={`/assets/images/blog/${value.images}.jpg`}
                           alt="Blog Images"
                         />
                       </a>
                     </div>
                     <div className="content">
-                      <p className="blogtype">{value.category}</p>
+                      {/* <p className="blogtype">{value.category}</p> */}
                       <h4 className="title">
-                        <a href={`/blog-${value.url}`}>{value.title}</a>
+                        <a href={`#`}>{value.title}</a>
                       </h4>
                       <div className="blog-btn">
-                        <a className="rn-btn text-white"  href={`/blog-${value.url}`}>
+                        <a className="rn-btn text-white" href={`#`}>
                           Read More
                         </a>
                       </div>
