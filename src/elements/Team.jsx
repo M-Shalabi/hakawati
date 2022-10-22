@@ -9,11 +9,11 @@ let TeamContent = [
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
+        url: "https://sa.linkedin.com/in/abdullah-ba-mashmos",
       },
       {
         icon: <FaTwitter />,
-        url: "#",
+        url: "https://twitter.com/abb_bamashmos",
       },
     ],
   },
@@ -24,22 +24,18 @@ let TeamContent = [
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
+        url: "https://www.linkedin.com/in/mohamad-molham-844784143",
       },
     ],
   },
   {
     images: "03",
     title: "Mohammed Shalabi",
-    designation: "Developer",
+    designation: "CTO",
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
+        url: "https://www.linkedin.com/in/moham-shalabi",
       },
     ],
   },
@@ -50,12 +46,8 @@ let TeamContent = [
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
+        url: "https://www.linkedin.com/in/moyasr-tam",
+      }
     ],
   },
   {
@@ -65,7 +57,7 @@ let TeamContent = [
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
+        url: "https://www.linkedin.com/in/roua-alzahem-898610134",
       },
     ],
   },
@@ -76,12 +68,8 @@ let TeamContent = [
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
+        url: "https://www.linkedin.com/in/obalfaqih",
+      }
     ],
   },
 ];

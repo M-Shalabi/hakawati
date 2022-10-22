@@ -118,20 +118,14 @@ const CreativeLanding = (props) => {
                   <div className="row mt--30">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
-                        <h3 className="title">Who we are</h3>
-                        <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
-                        </p>
+                        <h3 className="title">Mission</h3>
+                        <p>To create extra ordinary games & meaningful immersive storytelling experiences.</p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
-                        <h3 className="title">Who we are</h3>
-                        <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
-                        </p>
+                        <h3 className="title">Vision</h3>
+                        <p>To be the pioneers in creating unforgettable experiences and games.</p>
                       </div>
                     </div>
                   </div>
