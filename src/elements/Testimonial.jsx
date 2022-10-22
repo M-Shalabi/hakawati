@@ -11,7 +11,7 @@ class Testimonial extends Component {
                 <div className='rn-testimonial-content text-center'>
                   <div className='inner'>
                     <p>
-                    We have worked with iLogos on several projects and had an overall good experience with them. It was especially the fact that we share the commitment and dedication to create great games.
+                    We have worked with Hakawati Studio on several projects and had an overall good experience with them. It was especially the fact that we share the commitment and dedication to create great games.
                     </p>
                   </div>
                   <div className='author-info'>
