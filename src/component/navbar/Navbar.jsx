@@ -21,12 +21,6 @@ export default function Navbar({ pageTitle }) {
     // contact: "#contact",
   });
 
-  // if(pageTitle!='Home') {
-  //   setRefs({
-  //     home: "#home",
-  //   });
-  // }
-
   return (
     <>
       <header className="header-area formobile-menu header--fixed default-color">

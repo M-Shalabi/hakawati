@@ -14,6 +14,8 @@ import Contact from "../elements/contact/ContactTwo";
 import Helmet from "../component/common/Helmet";
 import Navbar from "../component/navbar/Navbar";
 import HakawatiStudioShowcase from "../../public/assets/videos/Hakawati_Studio_Showcase.mp4";
+
+
 const SlideList = [
   {
     textPosition: "text-center",
@@ -108,14 +110,9 @@ const CreativeLanding = (props) => {
               <div className="col-lg-7">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">About Us hakawati</h2>
+                    <h2 className="title">About Hakawati</h2>
                     <p className="description">
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered{" "}
-                      <a href="#alteration">alteration</a> in some form, by
-                      injected humour, or randomised words which dont look even
-                      slightly believable. If you are going to use a passage of
-                      Lorem Ipsum,
+                    A story-driven visionary studio, using games and Immersive technologies to create interactive experiences 
                     </p>
                   </div>
                   <div className="row mt--30">
@@ -154,10 +151,6 @@ const CreativeLanding = (props) => {
               <div className="col-lg-6">
                 <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
                   <h2 className="title">Our Portfolio</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
                 </div>
               </div>
             </div>
@@ -211,10 +204,6 @@ const CreativeLanding = (props) => {
             <div className="col-lg-6">
               <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
                 <h2 className="title">Our Team</h2>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration.
-                </p>
               </div>
             </div>
           </div>
@@ -243,10 +232,6 @@ const CreativeLanding = (props) => {
             <div className="col-lg-6">
               <div className="section-title text-left">
                 <h2>Latest News</h2>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration.
-                </p>
               </div>
             </div>
           </div>
