@@ -31,7 +31,7 @@ const BlogDetails = (props) => {
             <div className="col-lg-12">
               <div className="blog-single-page-title text-center pt--100">
                 <h2 className="title theme-gradient">
-                  original  <br />
+                  Gamers season  <br /> Boulvard
                 </h2>
                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                   <li>
@@ -39,8 +39,8 @@ const BlogDetails = (props) => {
                     May 18, 2020
                   </li>
                   <li>
-                    <FiUser />
-                    NipaBali
+                    {/* <FiUser />
+                    NipaBali */}
                   </li>
                 </ul>
               </div>

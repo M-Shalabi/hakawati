@@ -42,6 +42,7 @@ import PortfolioHakawatiGame from "./elements/PortfolioHakawatiGame";
 import PortfolioWamdah from "./elements/PortfolioWamdah";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
+import BlogDetailsGamersSeason from "./elements/BlogDetails-gamersSeason";
 import error404 from "./elements/error404";
 
 // Blocks Layout
@@ -143,6 +144,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/blog-details`}
               component={BlogDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-gamers-season`}
+              component={BlogDetailsGamersSeason}
             />
 
             {/* Blocks Elements  */}
