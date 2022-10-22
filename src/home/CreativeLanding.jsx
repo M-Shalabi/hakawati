@@ -36,7 +36,7 @@ const list = [
     url: "wamdah",
   },
   {
-    image: "image-3",
+    image: "image-4",
     category: "Development",
     title: "Hakawati Game",
     url: "hakawatiGame",
@@ -235,7 +235,7 @@ const CreativeLanding = (props) => {
                 {PostList.map((value, i) => (
                   <div className="blog blog-style--1" key={i}>
                     <div className="thumbnail">
-                      <a href="/blog-details">
+                      <a href={`/blog-${value.url}`}>
                         <img
                           src={`/assets/images/blog/blog-${value.images}.jpg`}
                           alt="Blog Images"
@@ -245,10 +245,10 @@ const CreativeLanding = (props) => {
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
                       <h4 className="title">
-                        <a href="/blog-details">{value.title}</a>
+                        <a href={`/blog-${value.url}`}>{value.title}</a>
                       </h4>
                       <div className="blog-btn">
-                        <a className="rn-btn text-white" href="/blog-details">
+                        <a className="rn-btn text-white"  href={`/blog-${value.url}`}>
                           Read More
                         </a>
                       </div>
