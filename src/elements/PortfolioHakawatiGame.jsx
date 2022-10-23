@@ -26,7 +26,7 @@ const PortfolioDetails = (props) => {
       {/* <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' /> */}
 
       {/* Start Breadcrump Area */}
-      <div
+      {/* <div
         className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"
         data-black-overlay="7"
       >
@@ -45,7 +45,7 @@ const PortfolioDetails = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
