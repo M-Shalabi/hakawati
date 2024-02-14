@@ -10,10 +10,14 @@ import ContactThree from "../elements/contact/ContactThree";
 const ContactForm = () => {
   return (
     <>
-      <PageHelmet pageTitle='Contact Form' />
+      <PageHelmet pageTitle="Contact Form" />
 
       {/* Start Header Area  */}
-      <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' />
+      <Header
+        headertransparent="header--transparent"
+        colorblack="color--black"
+        logoname="logo.png"
+      />
       {/* End Header Area  */}
 
       {/* Start Breadcrump Area */}
@@ -21,17 +25,20 @@ const ContactForm = () => {
       {/* End Breadcrump Area */}
 
       {/* Start Page Wrapper  */}
-      <main className='page-wrapper'>
+      <main className="page-wrapper">
         {/* Start Contact Form  */}
-        <div className='rn-contact-form-area ptb--120 bg_color--1'>
-          <ContactThree contactTitle='Contact Us' contactImages='./assets/images/about/about-6.jpg' />
+        <div className="rn-contact-form-area ptb--120 bg_color--1">
+          <ContactThree
+            contactTitle="Contact Us"
+            contactImages="./assets/images/about/about-6.jpg"
+          />
         </div>
         {/* Start Contact Form  */}
       </main>
       {/* End Page Wrapper  */}
 
       {/* Start Back To Top */}
-      <div className='backto-top'>
+      <div className="backto-top">
         <ScrollToTop showUnder={160}>
           <FiChevronUp />
         </ScrollToTop>

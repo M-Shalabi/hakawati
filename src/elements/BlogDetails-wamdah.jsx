@@ -57,7 +57,8 @@ const BlogDetails = (props) => {
               <div className="inner-wrapper">
                 <div className="inner">
                   <p>
-                    Of the 27 groups in the Creative Solutions Initiative, five had projects selected for a global bootcamp in London.
+                    Of the 27 groups in the Creative Solutions Initiative, five
+                    had projects selected for a global bootcamp in London.
                   </p>
                   <div className="thumbnail">
                     <img
@@ -66,9 +67,17 @@ const BlogDetails = (props) => {
                     />
                   </div>
                   <p className="mt--40">
-                    The journey to the modern city Neom is rooted in the experiences of the 1970s for Abdullah Ba Mashmos. “This an XR/VR interactive story about a guy who was from the 1970s and who goes on a journey to find his lost brother,” he said. "Every player going to put on their VR headset and they're going to experience life from the day through the protagonist's eyes. They're going to go from one place to another until they reach the mountains where they will get trapped in an ancient time machine which will take them to Saudi Arabia, all the way to the future in a city called Neom.{" "}
-
-                    There are many variations of passages of Lorem Ipsum
+                    The journey to the modern city Neom is rooted in the
+                    experiences of the 1970s for Abdullah Ba Mashmos. “This an
+                    XR/VR interactive story about a guy who was from the 1970s
+                    and who goes on a journey to find his lost brother,” he
+                    said. "Every player going to put on their VR headset and
+                    they're going to experience life from the day through the
+                    protagonist's eyes. They're going to go from one place to
+                    another until they reach the mountains where they will get
+                    trapped in an ancient time machine which will take them to
+                    Saudi Arabia, all the way to the future in a city called
+                    Neom. There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some
                     form, by injected humour, or randomised words which don't
                     look even slightly believable. If you are going to use a
@@ -78,8 +87,15 @@ const BlogDetails = (props) => {
                     predefined chunks.{" "}
                   </p>
                   <p>
-                    All five finalists will have the opportunity on this “Demo Day” to showcase their work and allow guests to explore the different ways of engaging in immersive technologies.
-                    “As the Kingdom’s leading hub for creatives and innovators, we offer year-round programs that support the growth of Saudi’s creative sector by providing established and budding creatives with the resources, expertise and opportunities to unleash their potential, said Miznah A. AlZamil, head of the Creativity and Innovation Department at Ithra.
+                    All five finalists will have the opportunity on this “Demo
+                    Day” to showcase their work and allow guests to explore the
+                    different ways of engaging in immersive technologies. “As
+                    the Kingdom’s leading hub for creatives and innovators, we
+                    offer year-round programs that support the growth of Saudi’s
+                    creative sector by providing established and budding
+                    creatives with the resources, expertise and opportunities to
+                    unleash their potential, said Miznah A. AlZamil, head of the
+                    Creativity and Innovation Department at Ithra.
                   </p>
                   {/* <blockquote className="rn-blog-quote">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.

@@ -63,12 +63,10 @@ const PortfolioDetails = (props) => {
                   </p>
 
                   <div className="portfolio-view-list d-flex flex-wrap">
-
                     <div className="port-view">
                       <span>Project Types</span>
                       <h4>Game, Open world</h4>
                     </div>
-
                   </div>
 
                   <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">

@@ -20,28 +20,36 @@ const SlideList = [
 const DesignerPortfolio = () => {
   return (
     <div>
-      <Helmet pageTitle='Designer Portfolio' />
+      <Helmet pageTitle="Designer Portfolio" />
       {/* Start Header Area  */}
-      <Header headerPosition='header--static' logo='symbol-dark' color='color-black' />
+      <Header
+        headerPosition="header--static"
+        logo="symbol-dark"
+        color="color-black"
+      />
       {/* End Header Area  */}
 
-      <div className='slider-wrapper'>
+      <div className="slider-wrapper">
         {/* Start Single Slide */}
         {SlideList.map((value, index) => (
           <div
-            className='slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height'
-            key={index}>
-            <div className='container'>
-              <div className='row align-items-center'>
-                <div className='col-lg-5'>
-                  <div className='designer-thumbnail'>
-                    <img src='./assets/images/about/designer-avatar.png' alt='Slider Images' />
+            className="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height"
+            key={index}
+          >
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-lg-5">
+                  <div className="designer-thumbnail">
+                    <img
+                      src="./assets/images/about/designer-avatar.png"
+                      alt="Slider Images"
+                    />
                   </div>
                 </div>
-                <div className='col-lg-7 mt_md--40 mt_sm--40'>
+                <div className="col-lg-7 mt_md--40 mt_sm--40">
                   <div className={`inner ${value.textPosition}`}>
                     {value.category ? <span>{value.category}</span> : ""}
-                    <h1 className='title'>
+                    <h1 className="title">
                       Hi, I’m Jone Doe <br />
                       <TextLoop>
                         <span> UX Designer.</span>
@@ -50,10 +58,17 @@ const DesignerPortfolio = () => {
                       </TextLoop>{" "}
                     </h1>
                     <h2>based in USA.</h2>
-                    {value.description ? <p className='description'>{value.description}</p> : ""}
+                    {value.description ? (
+                      <p className="description">{value.description}</p>
+                    ) : (
+                      ""
+                    )}
                     {value.buttonText ? (
-                      <div className='slide-btn'>
-                        <a className='rn-button-style--2 btn-primary-color' href={`${value.buttonLink}`}>
+                      <div className="slide-btn">
+                        <a
+                          className="rn-button-style--2 btn-primary-color"
+                          href={`${value.buttonLink}`}
+                        >
                           {value.buttonText}
                         </a>
                       </div>
@@ -70,9 +85,9 @@ const DesignerPortfolio = () => {
       </div>
 
       {/* Start Designer Portfolio  */}
-      <div className='designer-portfolio-area ptb--120 bg_color--1'>
-        <div className='wrapper plr--70 plr_sm--30 plr_md--30'>
-          <TabThree column='col-lg-4 col-md-6 col-sm-6 col-12' />
+      <div className="designer-portfolio-area ptb--120 bg_color--1">
+        <div className="wrapper plr--70 plr_sm--30 plr_md--30">
+          <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
         </div>
       </div>
       {/* End Designer Portfolio  */}
@@ -82,7 +97,7 @@ const DesignerPortfolio = () => {
       {/* End Footer Style  */}
 
       {/* Start Back To Top */}
-      <div className='backto-top'>
+      <div className="backto-top">
         <ScrollToTop showUnder={160}>
           <FiChevronUp />
         </ScrollToTop>

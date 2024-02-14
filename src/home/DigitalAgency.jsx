@@ -65,33 +65,43 @@ class DigitalAgency extends Component {
         "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,";
     return (
       <Fragment>
-        <Helmet pageTitle='Digital Agency' />
+        <Helmet pageTitle="Digital Agency" />
 
         {/* Start Header Area  */}
-        <Header logo='light' color='color-white' />
+        <Header logo="light" color="color-white" />
         {/* End Header Area  */}
 
         {/* Start Slider Area   */}
-        <div className='slider-wrapper color-white'>
-          <div className='slider-activation slider-digital-agency'>
-            <Slider className='rn-slick-dot dot-light' {...slideSlick}>
+        <div className="slider-wrapper color-white">
+          <div className="slider-activation slider-digital-agency">
+            <Slider className="rn-slick-dot dot-light" {...slideSlick}>
               {SlideList.map((value, index) => (
                 <div
                   className={`slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image ${value.bgImage}`}
                   key={index}
-                  data-black-overlay='2'>
-                  <div className='container'>
-                    <div className='row'>
-                      <div className='col-lg-12'>
+                  data-black-overlay="2"
+                >
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-lg-12">
                         <div className={`inner ${value.textPosition}`}>
                           {value.category ? <span>{value.category}</span> : ""}
-                          {value.title ? <h1 className='title'>{value.title}</h1> : ""}
-                          {value.description ? <p className='description'>{value.description}</p> : ""}
+                          {value.title ? (
+                            <h1 className="title">{value.title}</h1>
+                          ) : (
+                            ""
+                          )}
+                          {value.description ? (
+                            <p className="description">{value.description}</p>
+                          ) : (
+                            ""
+                          )}
                           {value.buttonText ? (
-                            <div className='slide-btn'>
+                            <div className="slide-btn">
                               <a
-                                className='rn-button-style--2 btn-primary-color'
-                                href={`${value.buttonLink}`}>
+                                className="rn-button-style--2 btn-primary-color"
+                                href={`${value.buttonLink}`}
+                              >
                                 {value.buttonText}
                               </a>
                             </div>
@@ -110,50 +120,56 @@ class DigitalAgency extends Component {
         {/* End Slider Area   */}
 
         {/* Start Service Area  */}
-        <div className='service-area pt--120 pb--50 bg_color--1'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center service-style--3 mb--30'>
-                  <h2 className='title'>Our Service</h2>
+        <div className="service-area pt--120 pb--50 bg_color--1">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center service-style--3 mb--30">
+                  <h2 className="title">Our Service</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have
-                    suffered alteration.
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration.
                   </p>
                 </div>
               </div>
             </div>
-            <ServiceList item='6' column='col-lg-4 col-md-6 col-sm-6 col-12 text-center' />
+            <ServiceList
+              item="6"
+              column="col-lg-4 col-md-6 col-sm-6 col-12 text-center"
+            />
           </div>
         </div>
         {/* End Service Area  */}
 
         {/* Start Portfolio Area */}
-        <div className='portfolio-area ptb--120 bg_image bg_image--3'>
-          <div className='portfolio-sacousel-inner'>
-            <div className='container'>
-              <div className='row'>
-                <div className='col-lg-12'>
-                  <div className='section-title text-center service-style--3 mb--15'>
-                    <h2 className='title'>Our Project</h2>
+        <div className="portfolio-area ptb--120 bg_image bg_image--3">
+          <div className="portfolio-sacousel-inner">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="section-title text-center service-style--3 mb--15">
+                    <h2 className="title">Our Project</h2>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have
-                      suffered alteration.
+                      There are many variations of passages of Lorem Ipsum
+                      available, but the majority have suffered alteration.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className='row'>
+              <div className="row">
                 <PortfolioList
-                  styevariation='text-center mt--40'
-                  column='col-lg-4 col-md-6 col-sm-6 col-12'
-                  item='6'
+                  styevariation="text-center mt--40"
+                  column="col-lg-4 col-md-6 col-sm-6 col-12"
+                  item="6"
                 />
               </div>
-              <div className='row'>
-                <div className='col-lg-12'>
-                  <div className='view-more-btn mt--60 text-center'>
-                    <a className='rn-button-style--2 btn-solid' href='/portfolio'>
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="view-more-btn mt--60 text-center">
+                    <a
+                      className="rn-button-style--2 btn-solid"
+                      href="/portfolio"
+                    >
                       <span>View More</span>
                     </a>
                   </div>
@@ -165,23 +181,27 @@ class DigitalAgency extends Component {
         {/* End Portfolio Area */}
 
         {/* Start About Area */}
-        <div className='about-area ptb--120  bg_color--1'>
-          <div className='about-wrapper'>
-            <div className='container'>
-              <div className='row row--35'>
-                <div className='col-lg-5'>
-                  <div className='thumbnail'>
-                    <img className='w-100' src='./assets/images/about/about-3.jpg' alt='About Images' />
+        <div className="about-area ptb--120  bg_color--1">
+          <div className="about-wrapper">
+            <div className="container">
+              <div className="row row--35">
+                <div className="col-lg-5">
+                  <div className="thumbnail">
+                    <img
+                      className="w-100"
+                      src="./assets/images/about/about-3.jpg"
+                      alt="About Images"
+                    />
                   </div>
                 </div>
-                <div className='col-lg-7'>
-                  <div className='about-inner inner'>
-                    <div className='section-title'>
-                      <h2 className='title'>{title}</h2>
-                      <p className='description'>{description}</p>
+                <div className="col-lg-7">
+                  <div className="about-inner inner">
+                    <div className="section-title">
+                      <h2 className="title">{title}</h2>
+                      <p className="description">{description}</p>
                     </div>
-                    <div className='row mt--30'>
-                      <TabOne tabStyle='tab-style--1' />
+                    <div className="row mt--30">
+                      <TabOne tabStyle="tab-style--1" />
                     </div>
                   </div>
                 </div>
@@ -192,47 +212,47 @@ class DigitalAgency extends Component {
         {/* End About Area */}
 
         {/* Start Testimonial Area */}
-        <div className='rn-testimonial-area ptb--120 bg_color--5'>
-          <div className='container'>
+        <div className="rn-testimonial-area ptb--120 bg_color--5">
+          <div className="container">
             <Testimonial />
           </div>
         </div>
         {/* End Testimonial Area */}
 
         {/* Start Blog Area */}
-        <div className='rn-blog-area pt--120 pb--80 bg_color--1'>
-          <div className='container'>
-            <div className='row align-items-end'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center service-style--3'>
+        <div className="rn-blog-area pt--120 pb--80 bg_color--1">
+          <div className="container">
+            <div className="row align-items-end">
+              <div className="col-lg-12">
+                <div className="section-title text-center service-style--3">
                   <h2>Latest News</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have
-                    suffered alteration.
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration.
                   </p>
                 </div>
               </div>
             </div>
-            <div className='row mt--60'>
+            <div className="row mt--60">
               {PostList.map((value, i) => (
-                <div className='col-lg-4 col-md-6 col-sm-6 col-12' key={i}>
-                  <div className='blog blog-style--1 text-center'>
-                    <div className='thumbnail'>
-                      <a href='/blog-details'>
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                  <div className="blog blog-style--1 text-center">
+                    <div className="thumbnail">
+                      <a href="/blog-details">
                         <img
-                          className='w-100'
+                          className="w-100"
                           src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt='Blog Images'
+                          alt="Blog Images"
                         />
                       </a>
                     </div>
-                    <div className='content'>
-                      <p className='blogtype'>{value.category}</p>
-                      <h4 className='title'>
-                        <a href='/blog-details'>{value.title}</a>
+                    <div className="content">
+                      <p className="blogtype">{value.category}</p>
+                      <h4 className="title">
+                        <a href="/blog-details">{value.title}</a>
                       </h4>
-                      <div className='blog-btn'>
-                        <a className='rn-btn text-white' href='/blog-details'>
+                      <div className="blog-btn">
+                        <a className="rn-btn text-white" href="/blog-details">
                           Read More
                         </a>
                       </div>
@@ -241,10 +261,10 @@ class DigitalAgency extends Component {
                 </div>
               ))}
             </div>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='view-more-btn mt--20 text-center'>
-                  <a className='rn-button-style--2 btn-solid' href='/blog'>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="view-more-btn mt--20 text-center">
+                  <a className="rn-button-style--2 btn-solid" href="/blog">
                     <span>View More</span>
                   </a>
                 </div>
@@ -255,22 +275,22 @@ class DigitalAgency extends Component {
         {/* End Blog Area */}
 
         {/* Start Brand Area */}
-        <div className='rn-brand-area ptb--120 bg_color--5'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center service-style--3 mb--30'>
-                  <h2 className='title'>Our Clients</h2>
+        <div className="rn-brand-area ptb--120 bg_color--5">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center service-style--3 mb--30">
+                  <h2 className="title">Our Clients</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have
-                    suffered alteration.
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration.
                   </p>
                 </div>
               </div>
             </div>
-            <div className='row'>
-              <div className='col-lg-12 mt--40'>
-                <Brand branstyle='branstyle--2' />
+            <div className="row">
+              <div className="col-lg-12 mt--40">
+                <Brand branstyle="branstyle--2" />
               </div>
             </div>
           </div>
@@ -285,7 +305,7 @@ class DigitalAgency extends Component {
         <Footer />
         {/* End Footer Style  */}
         {/* Start Back To Top */}
-        <div className='backto-top'>
+        <div className="backto-top">
           <ScrollToTop showUnder={160}>
             <FiChevronUp />
           </ScrollToTop>

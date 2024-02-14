@@ -21,10 +21,14 @@ class VideoPopup extends Component {
   render() {
     return (
       <>
-        <PageHelmet pageTitle='Video Popup' />
+        <PageHelmet pageTitle="Video Popup" />
 
         {/* Start Header Area  */}
-        <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' />
+        <Header
+          headertransparent="header--transparent"
+          colorblack="color--black"
+          logoname="logo.png"
+        />
         {/* End Header Area  */}
 
         {/* Start Breadcrump Area */}
@@ -32,22 +36,29 @@ class VideoPopup extends Component {
         {/* End Breadcrump Area */}
 
         {/* Start Page Wrapper  */}
-        <main className='page-wrapper'>
+        <main className="page-wrapper">
           {/* Start Video Area  */}
-          <div className='rn-section ptb--120 bg_color--1 line-separator'>
-            <div className='container'>
-              <div className='row sercice-details-content align-items-center'>
-                <div className='col-lg-12'>
-                  <div className='thumb position-relative'>
-                    <img className='w-100' src='./assets/images/blog/bl-big-01.jpg' alt='Service Images' />
+          <div className="rn-section ptb--120 bg_color--1 line-separator">
+            <div className="container">
+              <div className="row sercice-details-content align-items-center">
+                <div className="col-lg-12">
+                  <div className="thumb position-relative">
+                    <img
+                      className="w-100"
+                      src="./assets/images/blog/bl-big-01.jpg"
+                      alt="Service Images"
+                    />
                     <ModalVideo
-                      channel='youtube'
+                      channel="youtube"
                       isOpen={this.state.isOpen}
-                      videoId='ZOoVOfieAF8'
+                      videoId="ZOoVOfieAF8"
                       onClose={() => this.setState({ isOpen: false })}
                     />
-                    <button className='video-popup position-top-center' onClick={this.openModal}>
-                      <span className='play-icon'></span>
+                    <button
+                      className="video-popup position-top-center"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
                     </button>
                   </div>
                 </div>
@@ -57,42 +68,48 @@ class VideoPopup extends Component {
           {/* End Video Area  */}
 
           {/* Start Video Area  */}
-          <div className='rn-section ptb--120 bg_color--1 line-separator'>
-            <div className='container'>
-              <div className='row sercice-details-content align-items-center'>
-                <div className='col-lg-6'>
-                  <div className='thumb position-relative'>
+          <div className="rn-section ptb--120 bg_color--1 line-separator">
+            <div className="container">
+              <div className="row sercice-details-content align-items-center">
+                <div className="col-lg-6">
+                  <div className="thumb position-relative">
                     <img
-                      className='w-100'
-                      src='./assets/images/portfolio/portfolio-big-02.jpg'
-                      alt='Service Images'
+                      className="w-100"
+                      src="./assets/images/portfolio/portfolio-big-02.jpg"
+                      alt="Service Images"
                     />
                     <ModalVideo
-                      channel='youtube'
+                      channel="youtube"
                       isOpen={this.state.isOpen}
-                      videoId='ZOoVOfieAF8'
+                      videoId="ZOoVOfieAF8"
                       onClose={() => this.setState({ isOpen: false })}
                     />
-                    <button className='video-popup position-top-center theme-color' onClick={this.openModal}>
-                      <span className='play-icon'></span>
+                    <button
+                      className="video-popup position-top-center theme-color"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
                     </button>
                   </div>
                 </div>
-                <div className='col-lg-6'>
-                  <div className='thumb position-relative'>
+                <div className="col-lg-6">
+                  <div className="thumb position-relative">
                     <img
-                      className='w-100'
-                      src='./assets/images/portfolio/portfolio-big-03.jpg'
-                      alt='Service Images'
+                      className="w-100"
+                      src="./assets/images/portfolio/portfolio-big-03.jpg"
+                      alt="Service Images"
                     />
                     <ModalVideo
-                      channel='youtube'
+                      channel="youtube"
                       isOpen={this.state.isOpen}
-                      videoId='ZOoVOfieAF8'
+                      videoId="ZOoVOfieAF8"
                       onClose={() => this.setState({ isOpen: false })}
                     />
-                    <button className='video-popup position-top-center black-color' onClick={this.openModal}>
-                      <span className='play-icon'></span>
+                    <button
+                      className="video-popup position-top-center black-color"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
                     </button>
                   </div>
                 </div>
@@ -102,66 +119,69 @@ class VideoPopup extends Component {
           {/* End Video Area  */}
 
           {/* Start Video Area  */}
-          <div className='rn-section ptb--120 bg_color--1'>
-            <div className='container'>
-              <div className='row sercice-details-content align-items-center'>
-                <div className='col-lg-4'>
-                  <div className='thumb position-relative'>
+          <div className="rn-section ptb--120 bg_color--1">
+            <div className="container">
+              <div className="row sercice-details-content align-items-center">
+                <div className="col-lg-4">
+                  <div className="thumb position-relative">
                     <img
-                      className='w-100'
-                      src='./assets/images/portfolio/portfolio-big-02.jpg'
-                      alt='Service Images'
+                      className="w-100"
+                      src="./assets/images/portfolio/portfolio-big-02.jpg"
+                      alt="Service Images"
                     />
                     <ModalVideo
-                      channel='youtube'
+                      channel="youtube"
                       isOpen={this.state.isOpen}
-                      videoId='ZOoVOfieAF8'
+                      videoId="ZOoVOfieAF8"
                       onClose={() => this.setState({ isOpen: false })}
                     />
                     <button
-                      className='video-popup position-top-center theme-color md-size'
-                      onClick={this.openModal}>
-                      <span className='play-icon'></span>
+                      className="video-popup position-top-center theme-color md-size"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
                     </button>
                   </div>
                 </div>
-                <div className='col-lg-4'>
-                  <div className='thumb position-relative'>
+                <div className="col-lg-4">
+                  <div className="thumb position-relative">
                     <img
-                      className='w-100'
-                      src='./assets/images/portfolio/portfolio-big-01.jpg'
-                      alt='Service Images'
+                      className="w-100"
+                      src="./assets/images/portfolio/portfolio-big-01.jpg"
+                      alt="Service Images"
                     />
                     <ModalVideo
-                      channel='youtube'
+                      channel="youtube"
                       isOpen={this.state.isOpen}
-                      videoId='ZOoVOfieAF8'
+                      videoId="ZOoVOfieAF8"
                       onClose={() => this.setState({ isOpen: false })}
                     />
                     <button
-                      className='video-popup position-top-center theme-color md-size'
-                      onClick={this.openModal}>
-                      <span className='play-icon'></span>
+                      className="video-popup position-top-center theme-color md-size"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
                     </button>
                   </div>
                 </div>
-                <div className='col-lg-4'>
-                  <div className='thumb position-relative'>
+                <div className="col-lg-4">
+                  <div className="thumb position-relative">
                     <img
-                      className='w-100'
-                      src='./assets/images/portfolio/portfolio-big-03.jpg'
-                      alt='Service Images'
+                      className="w-100"
+                      src="./assets/images/portfolio/portfolio-big-03.jpg"
+                      alt="Service Images"
                     />
                     <ModalVideo
-                      channel='youtube'
+                      channel="youtube"
                       isOpen={this.state.isOpen}
-                      videoId='ZOoVOfieAF8'
+                      videoId="ZOoVOfieAF8"
                       onClose={() => this.setState({ isOpen: false })}
                     />
                     <button
-                      className='video-popup position-top-center theme-color md-size'
-                      onClick={this.openModal}>
-                      <span className='play-icon'></span>
+                      className="video-popup position-top-center theme-color md-size"
+                      onClick={this.openModal}
+                    >
+                      <span className="play-icon"></span>
                     </button>
                   </div>
                 </div>
@@ -173,7 +193,7 @@ class VideoPopup extends Component {
         {/* End Page Wrapper  */}
 
         {/* Start Back To Top */}
-        <div className='backto-top'>
+        <div className="backto-top">
           <ScrollToTop showUnder={160}>
             <FiChevronUp />
           </ScrollToTop>

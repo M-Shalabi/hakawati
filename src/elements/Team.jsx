@@ -47,7 +47,7 @@ let TeamContent = [
       {
         icon: <FaLinkedinIn />,
         url: "https://www.linkedin.com/in/moyasr-tam",
-      }
+      },
     ],
   },
   {
@@ -69,7 +69,7 @@ let TeamContent = [
       {
         icon: <FaLinkedinIn />,
         url: "https://www.linkedin.com/in/obalfaqih",
-      }
+      },
     ],
   },
 ];

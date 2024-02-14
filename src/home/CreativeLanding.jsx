@@ -15,7 +15,6 @@ import Helmet from "../component/common/Helmet";
 import Navbar from "../component/navbar/Navbar";
 import HakawatiStudioShowcase from "../../public/assets/videos/Hakawati_Studio_Showcase.mp4";
 
-
 const SlideList = [
   {
     textPosition: "text-center",
@@ -112,20 +111,27 @@ const CreativeLanding = (props) => {
                   <div className="section-title">
                     <h2 className="title">About Hakawati</h2>
                     <p className="description">
-                      A story-driven visionary studio, using games and Immersive technologies to create interactive experiences
+                      A story-driven visionary studio, using games and Immersive
+                      technologies to create interactive experiences
                     </p>
                   </div>
                   <div className="row mt--30">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">Mission</h3>
-                        <p>To create extra ordinary games & meaningful immersive storytelling experiences.</p>
+                        <p>
+                          To create extra ordinary games & meaningful immersive
+                          storytelling experiences.
+                        </p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">Vision</h3>
-                        <p>To be the pioneers in creating unforgettable experiences and games.</p>
+                        <p>
+                          To be the pioneers in creating unforgettable
+                          experiences and games.
+                        </p>
                       </div>
                     </div>
                   </div>

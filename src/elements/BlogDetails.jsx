@@ -31,7 +31,7 @@ const BlogDetails = (props) => {
             <div className="col-lg-12">
               <div className="blog-single-page-title text-center pt--100">
                 <h2 className="title theme-gradient">
-                  original  <br />
+                  original <br />
                 </h2>
                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                   <li>
@@ -211,7 +211,7 @@ const BlogDetails = (props) => {
         </div>
       </div>
       {/* End Blog Details */}
-      
+
       {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>
