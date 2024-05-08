@@ -1,24 +1,24 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
 
-export default function Navbar({ pageTitle }) {
+export default function Navbar() {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+  console.log(isHomePage);
   const menuTrigger = () => {
     document.querySelector(".header-wrapper").classList.toggle("menu-open");
   };
   const CLoseMenuTrigger = () => {
     document.querySelector(".header-wrapper").classList.remove("menu-open");
   };
-  const stickyHeader = () => {};
-
   const [refs, setRefs] = useState({
     home: "#home",
     about: "#about",
     portfolio: "#portfolio",
-    team: "#team",
     testimonial: "#testimonial",
     news: "#news",
-    // contact: "#contact",
   });
 
   return (
@@ -41,45 +41,38 @@ export default function Navbar({ pageTitle }) {
               </a>
             </div>
           </div>
+          <p>{isHomePage}</p>
           <div className="header-right">
-            <nav className="mainmenunav d-lg-block">
-              <Scrollspy
-                className="mainmenu"
-                items={[
-                  "home",
-                  "about",
-                  "portfolio",
-                  "team",
-                  "testimonial",
-                  "news",
-                  "contact",
-                ]}
-                currentClassName="is-current"
-                offset={-200}
-              >
-                <li>
-                  <a href={`${refs.home}`}>Home</a>
-                </li>
-                <li>
-                  <a href={`${refs.about}`}>About</a>
-                </li>
-                <li>
-                  <a href={`${refs.portfolio}`}>Portfolio</a>
-                </li>
-                {/* <li>
-                  <a href={`${refs.team}`}>Team</a>
-                </li> */}
-                <li>
-                  <a href={`${refs.testimonial}`}>Testimonial</a>
-                </li>
-                <li>
-                  <a href={`${refs.news}`}>News</a>
-                </li>
-                {/* <li>
-                  <a href={`${refs.contact}`}>Contact</a>
-                </li> */}
-              </Scrollspy>
-            </nav>
+            {isHomePage ? (
+              <nav className="mainmenunav d-lg-block">
+                <Scrollspy
+                  className="mainmenu"
+                  items={["home", "about", "portfolio", "testimonial", "news"]}
+                  currentClassName="is-current"
+                  offset={-200}
+                >
+                  <li>
+                    <a href={`${refs.home}`}>Home</a>
+                  </li>
+                  <li>
+                    <a href={`${refs.about}`}>About</a>
+                  </li>
+                  <li>
+                    <a href={`${refs.portfolio}`}>Portfolio</a>
+                  </li>
+                  <li>
+                    <a href={`${refs.testimonial}`}>Testimonial</a>
+                  </li>
+                  <li>
+                    <a href={`${refs.news}`}>News</a>
+                  </li>
+                </Scrollspy>
+              </nav>
+            ) : (
+              <p className="mb-0">
+                <a href="/">Back to Home</a>
+              </p>
+            )}
 
             {/* Start Humberger Menu  */}
             <div className="humberger-menu d-block d-lg-none pl--20">

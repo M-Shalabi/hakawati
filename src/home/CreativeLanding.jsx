@@ -1,4 +1,4 @@
-import React, { Component, Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { slickDot } from "../page-demo/script";
@@ -15,34 +15,28 @@ import Helmet from "../component/common/Helmet";
 import Navbar from "../component/navbar/Navbar";
 import HakawatiStudioShowcase from "../../public/assets/videos/Hakawati_Studio_Showcase.mp4";
 
-const SlideList = [
-  {
-    textPosition: "text-center",
-    category: "",
-    title: "",
-    description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
-    // buttonText: 'Contact Us',
-    buttonLink: "/contact",
-  },
-];
-
 const list = [
   {
-    image: "image-3",
+    image: "image-6",
     category: "Development",
+    title: "Alien Express",
+    url: "AlignExpress",
+  },
+  {
+    image: "image-3",
+    category: "released",
     title: "Wamdah",
     url: "wamdah",
   },
   {
     image: "image-4",
-    category: "Development",
+    category: "released",
     title: "Hakawati Game",
     url: "hakawatiGame",
   },
   {
     image: "image-5",
-    category: "Development",
+    category: "released",
     title: "Sensing beyond the frame",
     url: "sensingBeyondTheFrame",
   },

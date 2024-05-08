@@ -39,6 +39,7 @@ import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
 import PortfolioHakawatiBooks from "./elements/PortfolioHakawatiBooks";
 import PortfolioHakawatiGame from "./elements/PortfolioHakawatiGame";
+import PortfolioAlienExpress from "./elements/PortfolioAlienExpress";
 import PortfolioWamdah from "./elements/PortfolioWamdah";
 import PortfolioSensingBeyondTheFrame from "./elements/PortfolioSensingBeyondTheFrame";
 import Blog from "./elements/Blog";
@@ -121,6 +122,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/portfolio-details`}
               component={PortfolioDetails}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/portfolio-AlignExpress`}
+              component={PortfolioAlienExpress}
             />
             <Route
               exact

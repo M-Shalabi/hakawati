@@ -1,16 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
 import Navbar from "../component/navbar/Navbar";
 import { AiOutlineLink } from "react-icons/ai";
 
-
 const SocialShare = [
-  { Social: <AiOutlineLink />, link: "https://filmfreeway.com/SensingBeyondtheFrame" },
+  {
+    Social: <AiOutlineLink />,
+    link: "https://filmfreeway.com/SensingBeyondtheFrame",
+  },
 ];
 
 const PortfolioDetails = (props) => {
+  useEffect(() => {
+    const header = document.querySelector(".header--fixed");
+    if (header) {
+      header.classList.add("sticky");
+    }
+  }, []);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (

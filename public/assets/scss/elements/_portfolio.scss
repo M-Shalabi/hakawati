@@ -1,5 +1,5 @@
 /*==================
-    Portfolio Area 
+    Portfolio Area
 ==================*/
 .portfolio {
   position: relative;
@@ -87,6 +87,10 @@
 
     &.image-5 {
       background-image: url(/assets/images/portfolio/portfolio-sensing-beyond-the-frame.jpg);
+    }
+
+    &.image-6 {
+      background-image: url(/assets/images/portfolio/portfolio-alien-express.jpg);
     }
 
     &::after {
@@ -881,7 +885,7 @@
 }
 
 /*-----------------------------
-Portfolio Style Three  
+Portfolio Style Three
 --------------------------------*/
 .portfolio-style--3 {
   position: relative;

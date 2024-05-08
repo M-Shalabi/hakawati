@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import ModalVideo from "react-modal-video";
 import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import ScrollToTop from "react-scroll-up";
@@ -16,6 +16,12 @@ const SocialShare = [
 ];
 
 const PortfolioDetails = (props) => {
+  useEffect(() => {
+    const header = document.querySelector(".header--fixed");
+    if (header) {
+      header.classList.add("sticky");
+    }
+  }, []);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (

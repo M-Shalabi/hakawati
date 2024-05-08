@@ -24,7 +24,6 @@ const PortfolioDetails = (props) => {
     }
   }, []);
 
-
   return (
     <React.Fragment>
       <Navbar />
@@ -36,27 +35,20 @@ const PortfolioDetails = (props) => {
             <div className="col-lg-12">
               <div className="portfolio-details">
                 <div className="inner">
-                  <h2>Wamdah</h2>
+                  <h2>Alien Express</h2>
                   <p className="subtitle">
-                    WAMDAH is a VR storytelling experience of Odai in his
-                    tireless quest towards finding his lost brother.
-                  </p>
-                  <p>
-                    After his brother’s disappearance, Odai’s world changed. He
-                    made it his sole mission to journey on the shores and dunes
-                    of the kingdom to find his brother and bring him home. Step
-                    into Odai’s world, interwind between recollections and
-                    discoveries as he captures some of the most beautiful places
-                    in Saudi Arabia, regaining his lost passion along the way.{" "}
+                    Alien Express is a 3D competitive team-based multiplayer
+                    Hero shooter game that is Splatoon meets Ape Escape where we
+                    replace the apes with aliens with multiple modes.
                   </p>
 
                   <div className="portfolio-view-list d-flex flex-wrap">
                     <div className="port-view">
                       <span>Project Type</span>
-                      <h4>Virtual Reality, Interactive Film</h4>
+                      <h4>First-person shooter, Multiplayer</h4>
                     </div>
                   </div>
-                  <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
+                  {/* <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
                     <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
                       {SocialShare.map((val, i) => (
                         <li key={i}>
@@ -64,18 +56,18 @@ const PortfolioDetails = (props) => {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="portfolio-thumb-inner">
                   <div className="thumb position-relative mb--30">
                     <img
-                      src="./assets/images/portfolio/portfolio-wamdah-4.jpeg"
+                      src="./assets/images/portfolio/portfolio-alienExpress-video-bg.png"
                       alt="Portfolio Images"
                     />
                     <ModalVideo
                       channel="youtube"
                       isOpen={isModalOpen}
-                      videoId="Ux72Pppz8as"
+                      videoId="6clIlyLIPs8"
                       onClose={() => setIsModalOpen(false)}
                     />
                     <button
@@ -88,20 +80,26 @@ const PortfolioDetails = (props) => {
 
                   <div className="thumb mb--30">
                     <img
-                      src="./assets/images/portfolio/portfolio-wamdah-1.jpeg"
+                      src="./assets/images/portfolio/portfolio-alienExpress-1.png"
                       alt="Portfolio Images"
                     />
                   </div>
 
                   <div className="thumb mb--30">
                     <img
-                      src="./assets/images/portfolio/portfolio-wamdah-2.jpeg"
+                      src="./assets/images/portfolio/portfolio-alienExpress-2.png"
+                      alt="Portfolio Images"
+                    />
+                  </div>
+                  <div className="thumb mb--30">
+                    <img
+                      src="./assets/images/portfolio/portfolio-alienExpress-3.png"
                       alt="Portfolio Images"
                     />
                   </div>
                   <div className="thumb">
                     <img
-                      src="./assets/images/portfolio/portfolio-wamdah-3.jpg"
+                      src="./assets/images/portfolio/portfolio-alienExpress-4.png"
                       alt="Portfolio Images"
                     />
                   </div>
