@@ -66,9 +66,9 @@ export default function Navbar({ pageTitle }) {
                 <li>
                   <a href={`${refs.portfolio}`}>Portfolio</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href={`${refs.team}`}>Team</a>
-                </li>
+                </li> */}
                 <li>
                   <a href={`${refs.testimonial}`}>Testimonial</a>
                 </li>

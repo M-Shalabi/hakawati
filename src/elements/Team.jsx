@@ -20,7 +20,7 @@ let TeamContent = [
   {
     images: "02",
     title: "Molham AlEter",
-    designation: "Art Director",
+    designation: "Enviornment Designer",
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
@@ -28,17 +28,17 @@ let TeamContent = [
       },
     ],
   },
-  {
-    images: "03",
-    title: "Mohammed Shalabi",
-    designation: "CTO",
-    socialNetwork: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "https://www.linkedin.com/in/moham-shalabi",
-      },
-    ],
-  },
+  // {
+  //   images: "03",
+  //   title: "Mohammed Shalabi",
+  //   designation: "CTO",
+  //   socialNetwork: [
+  //     {
+  //       icon: <FaLinkedinIn />,
+  //       url: "https://www.linkedin.com/in/moham-shalabi",
+  //     },
+  //   ],
+  // },
   {
     images: "04",
     title: "Moyasr Tamim",
@@ -61,17 +61,17 @@ let TeamContent = [
       },
     ],
   },
-  {
-    images: "06",
-    title: "Omar Balfaqaih",
-    designation: "Game Developer",
-    socialNetwork: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "https://www.linkedin.com/in/obalfaqih",
-      },
-    ],
-  },
+  // {
+  //   images: "06",
+  //   title: "Omar Balfaqaih",
+  //   designation: "Game Developer",
+  //   socialNetwork: [
+  //     {
+  //       icon: <FaLinkedinIn />,
+  //       url: "https://www.linkedin.com/in/obalfaqih",
+  //     },
+  //   ],
+  // },
 ];
 
 class Team extends Component {

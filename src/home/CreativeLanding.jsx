@@ -40,6 +40,12 @@ const list = [
     title: "Hakawati Game",
     url: "hakawatiGame",
   },
+  {
+    image: "image-5",
+    category: "Development",
+    title: "Sensing beyond the frame",
+    url: "sensingBeyondTheFrame",
+  },
 ];
 
 const CreativeLanding = (props) => {
@@ -198,7 +204,7 @@ const CreativeLanding = (props) => {
       {/* End Portfolio Area */}
 
       {/* Start Team Area  */}
-      <div className="rn-team-area ptb--120 bg_color--1" id="team">
+      {/* <div className="rn-team-area ptb--120 bg_color--1" id="team">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -211,7 +217,7 @@ const CreativeLanding = (props) => {
             <Team column="col-lg-4 col-md-6 col-sm-6 col-12" />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Team Area  */}
 
       {/* Start Testimonial Area */}
@@ -276,6 +282,7 @@ const CreativeLanding = (props) => {
       {/* Start Footer Style  */}
       <Footer />
       {/* End Footer Style  */}
+
       {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>

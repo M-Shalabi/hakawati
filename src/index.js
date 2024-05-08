@@ -40,6 +40,7 @@ import PortfolioDetails from "./elements/PortfolioDetails";
 import PortfolioHakawatiBooks from "./elements/PortfolioHakawatiBooks";
 import PortfolioHakawatiGame from "./elements/PortfolioHakawatiGame";
 import PortfolioWamdah from "./elements/PortfolioWamdah";
+import PortfolioSensingBeyondTheFrame from "./elements/PortfolioSensingBeyondTheFrame";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import BlogDetailsGamersSeason from "./elements/BlogDetails-gamersSeason";
@@ -130,6 +131,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/portfolio-hakawatiGame`}
               component={PortfolioHakawatiGame}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/portfolio-sensingBeyondTheFrame`}
+              component={PortfolioSensingBeyondTheFrame}
             />
             <Route
               exact

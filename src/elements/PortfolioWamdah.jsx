@@ -21,32 +21,6 @@ const PortfolioDetails = (props) => {
   return (
     <React.Fragment>
       <Navbar />
-      {/* <PageHelmet pageTitle='Wamdah' />
-
-      <Header headertransparent='header--transparent' colorblack='color--black' logoname='logo.png' /> */}
-
-      {/* Start Breadcrump Area */}
-      {/* <div
-        className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"
-        data-black-overlay="7"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="rn-page-title text-center pt--100">
-                <h2 className="title theme-gradient">
-                  Getting tickets to the big show
-                </h2>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
       <div className="rn-portfolio-details ptb--120 bg_color--1">
@@ -70,22 +44,11 @@ const PortfolioDetails = (props) => {
                   </p>
 
                   <div className="portfolio-view-list d-flex flex-wrap">
-                    {/* <div className="port-view">
-                      <span>Branch</span>
-                      <h4>Ability</h4>
-                    </div> */}
-
                     <div className="port-view">
                       <span>Project Type</span>
                       <h4>Virtual Reality, Interactive Film</h4>
                     </div>
-
-                    {/* <div className="port-view">
-                      <span>Program</span>
-                      <h4>View Project</h4>
-                    </div> */}
                   </div>
-
                   <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
                     <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
                       {SocialShare.map((val, i) => (
