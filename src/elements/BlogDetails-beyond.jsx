@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import PageHelmet from "../component/common/Helmet";
-import ModalVideo from "react-modal-video";
-import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { FiClock } from "react-icons/fi";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
 import Navbar from "../component/navbar/Navbar";
+import { MdDateRange } from "react-icons/md";
+import { FiMapPin } from "react-icons/fi";
+
 
 const BlogDetails = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,12 +37,16 @@ const BlogDetails = (props) => {
             <div className="col-lg-12">
               <div className="blog-single-page-title text-center pt--100">
                 <h2 className="title theme-gradient">
-                  Gamers season <br /> Boulvard
+                  Beyond Exhibition <br />
                 </h2>
                 <ul className="blog-meta d-flex justify-content-center align-items-center">
                   <li>
-                    <FiClock />
-                    Feb 11, 2022
+                    <MdDateRange />
+                    Feb 3, 2023
+                  </li>
+                  <li>
+                    <FiMapPin />
+                    London
                   </li>
                 </ul>
               </div>
@@ -74,7 +78,7 @@ const BlogDetails = (props) => {
                   </p>
                   <div className="thumbnail">
                     <img
-                      src="./assets/images/blog/blog-Gamers1.jpg"
+                      src="./assets/images/blog/blog-Beyond-1.jpg"
                       alt="Blog Images"
                     />
                   </div>
@@ -87,7 +91,7 @@ const BlogDetails = (props) => {
                     <div className="thumbnail">
                       <img
                         className="w-100"
-                        src="./assets/images/blog/blog-Gamers2.jpg"
+                        src="./assets/images/blog/blog-Beyond-2.jpg"
                         alt="BLog Images"
                       />
                       <span>
@@ -95,6 +99,21 @@ const BlogDetails = (props) => {
                       </span>
                     </div>
                     <div className="content">
+                      <p>
+                        Visitors at Gamers8 had the unique opportunity to
+                        immerse themselves in "Wamdah," a captivating VR
+                        storytelling experience crafted by Hakawati Studio. This
+                        experience takes players on a profound journey with
+                        Odai, a determined character searching for his lost
+                        brother across the stunning landscapes of Saudi Arabia.
+                        Guests were thoroughly enchanted by the blend of
+                        poignant storytelling and breathtaking visuals, finding
+                        themselves deeply engaged and moved. The feedback was
+                        overwhelmingly positive, with many attendees praising
+                        how "Wamdah" not only allowed them to explore virtual
+                        realms but also rekindled their appreciation for the
+                        beauty and culture of the Kingdom.
+                      </p>
                       <p>
                         Visitors at Gamers8 had the unique opportunity to
                         immerse themselves in "Wamdah," a captivating VR

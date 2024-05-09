@@ -2,11 +2,19 @@ import React, { useState } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from "react-modal-video";
 import { FiClock, FiUser, FiMessageCircle, FiHeart } from "react-icons/fi";
+import { AiOutlineLink } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
 import Navbar from "../component/navbar/Navbar";
+
+const SocialShare = [
+  {
+    Social: <AiOutlineLink />,
+    link: "https://www.thenationalnews.com/world/uk-news/2022/03/24/ithra-project-brings-vr-monsoon-rains-and-more-to-london/",
+  },
+];
 
 const BlogDetails = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -39,8 +47,24 @@ const BlogDetails = (props) => {
                     March 23, 2022
                   </li>
                   <li>
-                    {/* <FiUser />
-                    NipaBali */}
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="/portfolio-wamdah"
+                    >
+                      <AiOutlineLink />
+                      Project Page
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.thenationalnews.com/world/uk-news/2022/03/24/ithra-project-brings-vr-monsoon-rains-and-more-to-london/"
+                    >
+                      <AiOutlineLink />
+                      see more
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -62,7 +86,7 @@ const BlogDetails = (props) => {
                   </p>
                   <div className="thumbnail">
                     <img
-                      src="./assets/images/blog/bl-big-01.jpg"
+                      src="./assets/images/blog/blog-showcase-london.jpg"
                       alt="Blog Images"
                     />
                   </div>

@@ -45,7 +45,9 @@ import PortfolioSensingBeyondTheFrame from "./elements/PortfolioSensingBeyondThe
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import BlogDetailsGamersSeason from "./elements/BlogDetails-gamersSeason";
-import BlogDetailsWamdah from "./elements/BlogDetails-wamdah";
+import BlogDetailsShowcaseLondon from "./elements/BlogDetails-showcaseLondon";
+import BlogDetailsLeap from "./elements/BlogDetails-leap.jsx";
+import BlogDetailsBeyond from "./elements/BlogDetails-beyond.jsx";
 import error404 from "./elements/error404";
 
 // Blocks Layout
@@ -165,8 +167,18 @@ class Root extends Component {
             />
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/blog-wamdah`}
-              component={BlogDetailsWamdah}
+              path={`${process.env.PUBLIC_URL}/blog-london-showcase`}
+              component={BlogDetailsShowcaseLondon}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-leap`}
+              component={BlogDetailsLeap}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blog-beyond-exhibition`}
+              component={BlogDetailsBeyond}
             />
 
             {/* Blocks Elements  */}

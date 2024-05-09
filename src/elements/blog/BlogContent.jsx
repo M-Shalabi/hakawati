@@ -1,5 +1,11 @@
 const BlogContent = [
     {
+        images: 'Beyond-bg',
+        title: 'Beyond Exhibition',
+        category: 'Development',
+        url: 'beyond-exhibition'
+    },
+    {
         images: 'GAMERS8-2',
         title: 'Gamers Season',
         category: 'Development',
@@ -15,7 +21,7 @@ const BlogContent = [
         images: 'wamdah-bg',
         title: 'Ithra showcase in London',
         category: 'Design',
-        url: 'wamdah'
+        url: 'london-showcase'
     },
 ]
 

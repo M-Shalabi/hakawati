@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ModalVideo from "react-modal-video";
 import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineLink } from "react-icons/ai";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
@@ -12,7 +11,8 @@ const SocialShare = [
     Social: <FaLinkedinIn />,
     link: "https://www.linkedin.com/company/hakawati-studio",
   },
-  { Social: <AiOutlineLink />, link: "https://filmfreeway.com/Wamdah" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/hakawatiar" },
+  { Social: <FaTwitter />, link: "https://twitter.com/hakawatiar" },
 ];
 
 const PortfolioDetails = (props) => {
@@ -41,6 +41,31 @@ const PortfolioDetails = (props) => {
                     Hero shooter game that is Splatoon meets Ape Escape where we
                     replace the apes with aliens with multiple modes.
                   </p>
+                  <p>
+                    Welcome to Alien Express: Shipping Them Home, a thrilling
+                    third-person Hero Shooter where players or teams compete in
+                    fast-paced battles to collect aliens disguised as
+                    vegetables, fruits, or anything they can find. Using
+                    specialized backpack devices. Strategize, outmaneuver, and
+                    outsmart your opponents to secure the most aliens and bring
+                    them back safely to their mother planet. With its unique
+                    alien-collecting gameplay, Alien Express offers an
+                    exhilarating twist on the competitive multiplayer genre that
+                    will keep you on the edge of your seat! Suitable for younger
+                    players and families The game is technically a third-person
+                    shooter with the unique mechanic of siphoning creatures and
+                    using them as ammo. The game will consist of opposing two
+                    teams, where the players will try collecting as many aliens
+                    as possible by siphoning them into their backpack device and
+                    delivering them to a checkpoint. The players can also stop
+                    the other team from collecting an alien or delivering an
+                    alien by either using an alien they collected as ammo or
+                    using a puff of air which will slightly damage the player
+                    and push the target away. If the player hits someone, the
+                    targeted person will lose the aliens in their backpack
+                    device. The team that will collect the most aliens during
+                    the round wins.
+                  </p>
 
                   <div className="portfolio-view-list d-flex flex-wrap">
                     <div className="port-view">
@@ -48,15 +73,15 @@ const PortfolioDetails = (props) => {
                       <h4>First-person shooter, Multiplayer</h4>
                     </div>
                   </div>
-                  {/* <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
+                  <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
                     <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
                       {SocialShare.map((val, i) => (
                         <li key={i}>
-                          <a href={`${val.link}`}>{val.Social}</a>
+                          <a target="_blank" rel="noopener noreferrer" href={`${val.link}`}>{val.Social}</a>
                         </li>
                       ))}
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="portfolio-thumb-inner">
                   <div className="thumb position-relative mb--30">

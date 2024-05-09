@@ -12,6 +12,8 @@ const SocialShare = [
     Social: <FaLinkedinIn />,
     link: "https://www.linkedin.com/company/hakawati-studio",
   },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/hakawatiar" },
+  { Social: <FaTwitter />, link: "https://twitter.com/hakawatiar" },
   { Social: <AiOutlineLink />, link: "https://filmfreeway.com/Wamdah" },
 ];
 
@@ -60,7 +62,7 @@ const PortfolioDetails = (props) => {
                     <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
                       {SocialShare.map((val, i) => (
                         <li key={i}>
-                          <a href={`${val.link}`}>{val.Social}</a>
+                          <a target="_blank" rel="noopener noreferrer" href={`${val.link}`}>{val.Social}</a>
                         </li>
                       ))}
                     </ul>
