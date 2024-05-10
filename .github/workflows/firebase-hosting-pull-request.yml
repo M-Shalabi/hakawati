@@ -19,3 +19,7 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HAKAWATI_70604 }}'
           projectId: hakawati-70604
+      - name: List installed packages
+        run: ls node_modules
+      - name: Check fs-extra installation
+        run: ls node_modules/fs-extra
