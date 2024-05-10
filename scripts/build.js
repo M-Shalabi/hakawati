@@ -16,7 +16,7 @@ require('../config/env');
 
 
 const path = require('path');
-const chalk = require('chalk');
+// const chalk = require('chalk');
 const fs = require('fs-extra');
 const webpack = require('webpack');
 const configFactory = require('../config/webpack.config');
@@ -67,20 +67,20 @@ checkBrowsers(paths.appPath, isInteractive)
   .then(
     ({ stats, previousFileSizes, warnings }) => {
       if (warnings.length) {
-        console.log(chalk.yellow('Compiled with warnings.\n'));
+        // console.log(chalk.yellow('Compiled with warnings.\n'));
         console.log(warnings.join('\n\n'));
-        console.log(
-          '\nSearch for the ' +
-            chalk.underline(chalk.yellow('keywords')) +
-            ' to learn more about each warning.'
-        );
+        // console.log(
+        //   '\nSearch for the ' +
+        //     chalk.underline(chalk.yellow('keywords')) +
+        //     ' to learn more about each warning.'
+        // );
         console.log(
           'To ignore, add ' +
-            chalk.cyan('// eslint-disable-next-line') +
+            // chalk.cyan('// eslint-disable-next-line') +
             ' to the line before.\n'
         );
       } else {
-        console.log(chalk.green('Compiled successfully.\n'));
+        // console.log(chalk.green('Compiled successfully.\n'));
       }
 
       console.log('File sizes after gzip:\n');
@@ -106,7 +106,7 @@ checkBrowsers(paths.appPath, isInteractive)
       );
     },
     err => {
-      console.log(chalk.red('Failed to compile.\n'));
+      // console.log(chalk.red('Failed to compile.\n'));
       printBuildError(err);
       process.exit(1);
     }
@@ -125,9 +125,9 @@ function build(previousFileSizes) {
   // This lets you use absolute paths in imports inside large monorepos:
   if (process.env.NODE_PATH) {
     console.log(
-      chalk.yellow(
-        'Setting NODE_PATH to resolve modules absolutely has been deprecated in favor of setting baseUrl in jsconfig.json (or tsconfig.json if you are using TypeScript) and will be removed in a future major release of create-react-app.'
-      )
+      // chalk.yellow(
+      //   'Setting NODE_PATH to resolve modules absolutely has been deprecated in favor of setting baseUrl in jsconfig.json (or tsconfig.json if you are using TypeScript) and will be removed in a future major release of create-react-app.'
+      // )
     );
     console.log();
   }
@@ -165,12 +165,12 @@ function build(previousFileSizes) {
           process.env.CI.toLowerCase() !== 'false') &&
         messages.warnings.length
       ) {
-        console.log(
-          chalk.yellow(
-            '\nTreating warnings as errors because process.env.CI = true.\n' +
-              'Most CI servers set it automatically.\n'
-          )
-        );
+        // console.log(
+        //   chalk.yellow(
+        //     '\nTreating warnings as errors because process.env.CI = true.\n' +
+        //       'Most CI servers set it automatically.\n'
+        //   )
+        // );
         return reject(new Error(messages.warnings.join('\n\n')));
       }
 

@@ -46,18 +46,18 @@ const HOST = process.env.HOST || '0.0.0.0';
 
 if (process.env.HOST) {
   console.log(
-    chalk.cyan(
-      `Attempting to bind to HOST environment variable: ${chalk.yellow(
-        chalk.bold(process.env.HOST)
-      )}`
-    )
+    // chalk.cyan(
+    //   `Attempting to bind to HOST environment variable: ${chalk.yellow(
+    //     chalk.bold(process.env.HOST)
+    //   )}`
+    // )
   );
   console.log(
     `If this was unintentional, check that you haven't mistakenly set it in your shell.`
   );
-  console.log(
-    `Learn more here: ${chalk.yellow('https://bit.ly/CRA-advanced-config')}`
-  );
+  // console.log(
+  //   `Learn more here: ${chalk.yellow('https://bit.ly/CRA-advanced-config')}`
+  // );
   console.log();
 }
 
@@ -119,14 +119,14 @@ checkBrowsers(paths.appPath, isInteractive)
       // This lets you use absolute paths in imports inside large monorepos:
       if (process.env.NODE_PATH) {
         console.log(
-          chalk.yellow(
-            'Setting NODE_PATH to resolve modules absolutely has been deprecated in favor of setting baseUrl in jsconfig.json (or tsconfig.json if you are using TypeScript) and will be removed in a future major release of create-react-app.'
-          )
+          // chalk.yellow(
+          //   'Setting NODE_PATH to resolve modules absolutely has been deprecated in favor of setting baseUrl in jsconfig.json (or tsconfig.json if you are using TypeScript) and will be removed in a future major release of create-react-app.'
+          // )
         );
         console.log();
       }
 
-      console.log(chalk.cyan('Starting the development server...\n'));
+      // console.log(chalk.cyan('Starting the development server...\n'));
       openBrowser(urls.localUrlForBrowser);
     });
 
